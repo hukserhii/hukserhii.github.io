@@ -1,0 +1,750 @@
+button {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    text-shadow: 0 -.5px 1px rgba(0, 0, 0, .15);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    min-width: 200px;
+    margin: 0;
+    padding: 18.5px;
+}
+
+.button.styl-material {
+    margin-top: 40px;
+    -webkit-transition: 200ms background cubic-bezier(.4, 0, .2, 1);
+    transition: 200ms background cubic-bezier(.4, 0, .2, 1);
+    background: #00bfa5;
+}
+
+.button.styl-material:hover,
+.button.styl-material:focus {
+    outline: 0;
+    background: #00ccb1;
+}
+
+.ripple-obj {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    fill: #d0fff9;
+}
+
+.ripple-obj use {
+    opacity: 0;
+}
+
+.theme-2 .button.styl-material {
+    background: #2196f3;
+}
+
+.theme-2 .button.styl-material:hover,
+.theme-2 .button.styl-material:focus {
+    background: #2b9bf4;
+}
+
+.theme-3 .button.styl-material {
+    background: #009688;
+}
+
+.theme-3 .button.styl-material:hover,
+.theme-3 .button.styl-material:focus {
+    background: #26a69a;
+}
+
+.theme-3 .ripple-obj {
+    fill: #00695c;
+}
+
+.bg-logo-style,
+.bg-web,
+.bg-illustrations,
+.bg-packaging,
+.bg-print,
+.bg-outer {
+    background-color: #ff7e6b;
+}
+
+.bg-logo-style > h4,
+.bg-web > h4,
+.bg-illustrations > h4,
+.bg-packaging > h4,
+.bg-print > h4,
+.bg-outer > h4 {
+    color: #fff;
+}
+
+.fa-phone,
+.fa-envelope-o {
+    color: #343434;
+}
+
+#team {
+    background: rgba(255, 255, 255, 1);
+}
+
+#text {
+    background: linear-gradient(to bottom,#e9e9e9,rgb(0, 191, 165));
+}
+
+#about {
+    background: rgba(233, 233, 233, 1);
+    background-image: radial-gradient(rgba(255, 255, 255, 1) 5%, transparent 6%), radial-gradient(rgba(255, 255, 255, 1) 5%, transparent 6%);
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+}
+
+#portfolio {
+    background: #fff;
+}
+
+#contact {
+    background: #fff;
+}
+
+#services {
+    background: #00bfa5;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    transition: all 500ms ease-in;
+    border-color: #fff;
+}
+
+#page-top {
+    padding: 1px;
+}
+
+.first,
+.second {
+    width: 30px;
+    height: 30px;
+}
+
+.parallax-window {
+    background: url(../img/main_stage_layers/bg-pattern.png), #1c0d36;
+    background: url(../img/main_stage_layers/bg-pattern.png), -webkit-linear-gradient(to bottom, #1c0d36, #dd2566);
+    background: url(../img/main_stage_layers/bg-pattern.png), linear-gradient(to bottom, #1c0d36, #dd2566);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1c0d36', endColorstr='#a6223a', GradientType=0);
+}
+
+.alert-success {
+    color: #015d51;
+    border-color: #b1fef3;
+    background-color: #b1fef3;
+}
+
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-lg-1-50 {
+    float: left;
+    width: 50%;
+}
+
+.col-lg-1-33 {
+    float: left;
+    width: 33.33%;
+}
+
+@media(min-width:1200px) {
+    .col-lg-1-5 {
+        float: left;
+        width: 20%;
+    }
+}
+
+@media(min-width:992px) {
+    .col-md-1-5 {
+        float: left;
+        width: 20%;
+    }
+}
+
+@media(max-width:768px) {
+    .col-xs-1-5 {
+        float: none;
+        width: 100%;
+    }
+}
+
+img.first2 {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-brand:hover img.first2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-brand:hover img.second2,
+.navbar-brand img.dva:hover {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-brand:hover img.second2:active {
+    opacity: 1;
+    filter: alpha(opacity=5000);
+}
+
+.navbar-brand img {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.first2 {
+    position: absolute;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-width: 1px;
+    border-color: #fff;
+    background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #fff;
+    background-color: #00bfa5;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: transparent;
+    text-shadow: 0 0 20px #fff;
+}
+
+#preloader {
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#status {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    margin: -125px 0 0 -125px;
+}
+
+#status img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 0;
+}
+
+@media screen and (max-width: 359px) and (min-width: 320px) {
+    #about h1 {
+        font-size: 26px;
+    }
+
+    .portfolio-modal .close-modal .lr {
+        height: 40px;
+    }
+
+    .portfolio-modal .close-modal .lr .rl {
+        height: 40px;
+    }
+
+    .portfolio-modal .modal-content h2 {
+        font-size: 2em;
+        text-align: left;
+    }
+
+    .portfolio-modal .close-modal {
+        z-index: 2;
+        top: 1px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .portfolio-modal .modal-content p {
+        text-align: justify;
+    }
+
+    .portfolio-modal .modal-content {
+        padding: 0;
+    }
+}
+
+@media(min-width:768px) {
+    .col-sm-4 {
+        height: 310px;
+    }
+}
+
+.pulse2 {
+    font-size: 15px;
+    margin: 0 2px;
+    animation-name: pulse2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: #ff415c;
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.clients {
+    padding: 7px 0;
+}
+
+.sprite {
+    background: url('../img/logos/company-yard.png') no-repeat;
+}
+
+#logo-plus {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 0 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-atb {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 9.089% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-camionTyres {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 18.178% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-dafmi {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 27.267% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-borisov {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 36.356% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-dneproPress {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 45.445% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-fregat {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 54.534% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-interpipe {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 63.623% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-klim {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 72.712% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-maz {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 81.801% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-noc {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 90.89% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-schedro {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 99.979% 0;
+    background-size: 1209%, 300%;
+}
+
+#logo-voshod {
+    display: inline-block;
+    width: 100%;
+    height: 33.333%;
+    padding-bottom: 100%;
+    background-position: 0 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-archer-soft {
+    display: inline-block;
+    width: 100%;
+    height: 33.333%;
+    padding-bottom: 100%;
+    background-position: 9.089% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-bonMarche {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 18.178% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-cannesLion {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 27.267% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-foodMarket {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 36.356% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-fundament {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 45.445% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-liberator {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 54.534% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-fregattv {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 63.623% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-savservice {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 72.712% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-maribell {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 81.801% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-sinergiy {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 90.89% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-spacer {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 99.979% 50%;
+    background-size: 1209%, 300%;
+}
+
+#logo-sputnik {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 0 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-tot {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 9.089% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-zirka {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 18.178% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-intellibrake {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 27.267% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-faina {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 36.356% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-ua2space {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 45.445% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-agrosicheslav {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 54.534% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-smarts {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 63.523% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-dniproitcommunity {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 72.712% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-lioncom {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 81.770% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-ukraineprint {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 90.89% 100%;
+    background-size: 1209%, 300%;
+}
+
+#logo-centrabraziv {
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: 99.933% 100%;
+    background-size: 1209%, 300%;
+}
+
+
+@media screen and (max-width:980px) and (min-width:800px) {
+    section {
+        padding: 90px 0;
+    }
+    .scrollup {
+        bottom: 34px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width:799px) and (min-width:480px) {
+    section {
+        padding: 50px 0;
+    }
+    .scrollup {
+        bottom: 34px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width:479px) and (min-width:360px) {
+    section {
+        padding: 50px 0;
+    }
+
+    .scrollup {
+        bottom: 34px;
+        right: 20px;
+    }
+
+    section h2.section-heading {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:359px) and (min-width:320px) {
+    section {
+        padding: 50px 0;
+    }
+    .scrollup {
+        bottom: 34px;
+        right: 20px;
+    }
+    section h2.section-heading {
+        font-size: 26px;
+    }
+}
