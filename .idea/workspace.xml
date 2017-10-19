@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="704" column="8" lean-forward="false" selection-start-line="704" selection-start-column="12" selection-end-line="744" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="883" column="110" lean-forward="false" selection-start-line="883" selection-start-column="110" selection-end-line="883" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -171,7 +171,7 @@
       <workItem from="1506417957462" duration="592000" />
       <workItem from="1506602185075" duration="19000" />
       <workItem from="1508336872258" duration="33000" />
-      <workItem from="1508394895180" duration="842000" />
+      <workItem from="1508394895180" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -306,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508395676555</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add">
+      <created>1508395807451</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1508395807451</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21057000" />
+    <option name="totallyTimeSpent" value="21576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="13" width="1875" height="1028" extended-state="0" />
@@ -345,7 +352,6 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="no follow" />
     <MESSAGE value="main index add" />
-    <MESSAGE value="add" />
     <MESSAGE value="add new" />
     <MESSAGE value="logo new" />
     <MESSAGE value="logo" />
@@ -353,7 +359,8 @@
     <MESSAGE value="img add" />
     <MESSAGE value="icon" />
     <MESSAGE value="фраза" />
-    <option name="LAST_COMMIT_MESSAGE" value="фраза" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -739,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="704" column="8" lean-forward="false" selection-start-line="704" selection-start-column="12" selection-end-line="744" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="883" column="110" lean-forward="false" selection-start-line="883" selection-start-column="110" selection-end-line="883" selection-end-column="110" />
           <folding />
         </state>
       </provider>
