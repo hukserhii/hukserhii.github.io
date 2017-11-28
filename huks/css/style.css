@@ -613,6 +613,7 @@ ul.portfolio-image li {
   display: inline-block;
   overflow: hidden;
   padding-top: 46%;
+  width: 50%;
 }
 ul.portfolio-image li:hover {
   cursor: pointer;
