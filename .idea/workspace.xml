@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/huks/css/style.css" afterPath="$PROJECT_DIR$/huks/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/huks/js/main.js" afterPath="$PROJECT_DIR$/huks/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/huks/images/android-chrome-192x192.png" afterPath="$PROJECT_DIR$/huks/images/android-chrome-192x192.png" />
+      <change beforePath="$PROJECT_DIR$/huks/images/android-chrome-512x512.png" afterPath="$PROJECT_DIR$/huks/images/android-chrome-512x512.png" />
+      <change beforePath="$PROJECT_DIR$/huks/images/apple-touch-icon.png" afterPath="$PROJECT_DIR$/huks/images/apple-touch-icon.png" />
+      <change beforePath="$PROJECT_DIR$/huks/images/favicon-16x16.png" afterPath="$PROJECT_DIR$/huks/images/favicon-16x16.png" />
+      <change beforePath="$PROJECT_DIR$/huks/images/favicon-32x32.png" afterPath="$PROJECT_DIR$/huks/images/favicon-32x32.png" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="234" column="45" lean-forward="false" selection-start-line="234" selection-start-column="45" selection-end-line="234" selection-end-column="45" />
+            <state relative-caret-position="221">
+              <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -32,7 +35,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huks/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
+            <state relative-caret-position="3842">
               <caret line="226" column="3" lean-forward="false" selection-start-line="226" selection-start-column="3" selection-end-line="226" selection-end-column="3" />
               <folding />
             </state>
@@ -49,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huks/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
+            <state relative-caret-position="23324">
               <caret line="1372" column="3" lean-forward="false" selection-start-line="1280" selection-start-column="0" selection-end-line="1372" selection-end-column="3" />
               <folding />
             </state>
@@ -79,8 +82,8 @@
       <list>
         <option value="$PROJECT_DIR$/yard.co.ua/index.html" />
         <option value="$PROJECT_DIR$/huks/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/huks/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -112,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,7 +151,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +210,10 @@
       <workItem from="1511943885274" duration="621000" />
       <workItem from="1511946993455" duration="1283000" />
       <workItem from="1512028763476" duration="2617000" />
-      <workItem from="1512371584411" duration="847000" />
+      <workItem from="1512371584411" duration="1038000" />
+      <workItem from="1515494856056" duration="759000" />
+      <workItem from="1517216265881" duration="3277000" />
+      <workItem from="1517497710917" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -412,17 +418,23 @@
       <option name="project" value="LOCAL" />
       <updated>1511948249021</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fancybox custom layout">
+      <created>1512373469827</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1512373469836</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39722000" />
+    <option name="totallyTimeSpent" value="44323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="13" width="1875" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1529668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1529668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -492,7 +504,8 @@
     <MESSAGE value="new img" />
     <MESSAGE value="portfolio image" />
     <MESSAGE value="add text" />
-    <option name="LAST_COMMIT_MESSAGE" value="add text" />
+    <MESSAGE value="fancybox custom layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="fancybox custom layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -819,24 +832,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/huks/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
+        <state relative-caret-position="3842">
           <caret line="226" column="3" lean-forward="false" selection-start-line="226" selection-start-column="3" selection-end-line="226" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="234" column="45" lean-forward="false" selection-start-line="234" selection-start-column="45" selection-end-line="234" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/huks/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
+        <state relative-caret-position="23324">
           <caret line="1372" column="3" lean-forward="false" selection-start-line="1280" selection-start-column="0" selection-end-line="1372" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding />
         </state>
       </provider>
