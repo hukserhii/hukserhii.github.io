@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/huks/js/main.js" afterPath="$PROJECT_DIR$/huks/js/main.js" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="688" column="81" lean-forward="true" selection-start-line="688" selection-start-column="81" selection-end-line="688" selection-end-column="81" />
+            <state relative-caret-position="119">
+              <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -210,7 +209,7 @@
       <workItem from="1515494856056" duration="759000" />
       <workItem from="1517216265881" duration="3277000" />
       <workItem from="1517497710917" duration="453000" />
-      <workItem from="1517498399546" duration="922000" />
+      <workItem from="1517498399546" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -436,11 +435,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517498783495</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="edit">
+      <created>1517499343612</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1517499343612</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45324000" />
+    <option name="totallyTimeSpent" value="45415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="13" width="1875" height="1028" extended-state="0" />
@@ -519,7 +525,8 @@
     <MESSAGE value="fancybox custom layout" />
     <MESSAGE value="new icon" />
     <MESSAGE value="new icon - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new icon - 2" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -859,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="688" column="81" lean-forward="true" selection-start-line="688" selection-start-column="81" selection-end-line="688" selection-end-column="81" />
+        <state relative-caret-position="119">
+          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
           <folding />
         </state>
       </provider>
