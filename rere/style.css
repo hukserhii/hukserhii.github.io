@@ -1,0 +1,25 @@
+@import "css/stylename.css" screen;
+
+body {
+    font-family: "PFCentroSlabProRegular",sans-serif;
+}
+
+nav {
+    font-size: 25px;
+    font-family: "PFCentroSlabProMedium",sans-serif;
+    color: #a3a3a3;
+}
+
+nav a {
+    color: #a3a3a3;
+}
+
+nav .active {
+    color: #000;
+}
+
+.border-logo {
+    border: 2px solid #000;
+    padding: 17px 10px;
+    font-size: 23px;
+}
