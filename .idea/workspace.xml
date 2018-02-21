@@ -2,188 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/huks/images/vintage-huk-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huks/images/vintage-huk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huks/images/vintage-huk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/css/stylename.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProBoldItalic/PFCentroSlabProBoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProBoldItalic/PFCentroSlabProBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProBoldItalic/PFCentroSlabProBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProLight/PFCentroSlabProLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProLight/PFCentroSlabProLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProLight/PFCentroSlabProLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProMediumItalic/PFCentroSlabProMediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProMediumItalic/PFCentroSlabProMediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProMediumItalic/PFCentroSlabProMediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProRegular/PFCentroSlabProRegular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProRegular/PFCentroSlabProRegular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/fonts/PFCentroSlabProRegular/PFCentroSlabProRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/fancybox-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/photo-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/alert.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/button.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/carousel.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/collapse.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/dropdown.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/modal.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/popover.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/scrollspy.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/tab.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/tooltip.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/dist/util.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_navbar-align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/css/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/css/share.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/css/slideshow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/css/thumbs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/guestures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/share.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/slideshow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/thumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/@fancyapps/fancybox/src/js/wheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huks/images/logo-bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huks/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/huks/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rere/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/scrollspy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/js/src/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rere/node_modules/bootstrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rere/node_modules/bootstrap/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -200,21 +77,25 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="669" column="97" selection-start-line="669" selection-start-column="97" selection-end-line="669" selection-end-column="97" />
+            <state relative-caret-position="185">
+              <caret line="663" column="17" selection-start-line="663" selection-start-column="17" selection-end-line="663" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vintage-huk-footer.svg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/huks/images/vintage-huk-footer.svg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rere/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huks/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
+            <state relative-caret-position="-1063">
               <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
             </state>
           </provider>
@@ -223,8 +104,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huks/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10812">
-              <caret line="636" column="1" selection-start-line="636" selection-start-column="1" selection-end-line="636" selection-end-column="1" />
+            <state relative-caret-position="476">
+              <caret line="1278" column="71" selection-start-line="1278" selection-start-column="71" selection-end-line="1278" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -249,8 +130,9 @@
       <list>
         <option value="$PROJECT_DIR$/yard.co.ua/index.html" />
         <option value="$PROJECT_DIR$/huks/js/main.js" />
-        <option value="$PROJECT_DIR$/huks/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/rere/index.html" />
+        <option value="$PROJECT_DIR$/huks/css/style.css" />
       </list>
     </option>
   </component>
@@ -259,6 +141,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/rere/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="14" />
@@ -272,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,35 +167,64 @@
             <path>
               <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="huks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="huks" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="huks" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="huks" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="rere" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="rere" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="rere" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="rere" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@fancyapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="rere" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="rere" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="rere" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="rere" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,7 +287,8 @@
       <workItem from="1517497710917" duration="453000" />
       <workItem from="1517498399546" duration="2612000" />
       <workItem from="1519051038829" duration="1406000" />
-      <workItem from="1519113510089" duration="2533000" />
+      <workItem from="1519113510089" duration="2816000" />
+      <workItem from="1519211399409" duration="2302000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -621,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519052167523</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="preloader logo + re:re">
+      <created>1519116783891</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1519116783891</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50953000" />
+    <option name="totallyTimeSpent" value="53538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="13" width="1875" height="1028" extended-state="0" />
@@ -638,17 +559,17 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988507" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3494253" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3494253" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32988507" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -713,6 +634,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huks/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huks/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10812">
+          <caret line="636" column="1" selection-start-line="636" selection-start-column="1" selection-end-line="636" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/huks/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -917,29 +852,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huks/js/main.js">
+    <entry file="file://$PROJECT_DIR$/rere/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/huks/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10812">
-          <caret line="636" column="1" selection-start-line="636" selection-start-column="1" selection-end-line="636" selection-end-column="1" />
+        <state relative-caret-position="476">
+          <caret line="1278" column="71" selection-start-line="1278" selection-start-column="71" selection-end-line="1278" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="669" column="97" selection-start-line="669" selection-start-column="97" selection-end-line="669" selection-end-column="97" />
+        <state relative-caret-position="185">
+          <caret line="663" column="17" selection-start-line="663" selection-start-column="17" selection-end-line="663" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huks/images/vintage-huk-footer.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/rere/node_modules/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huks/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1063">
+          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
