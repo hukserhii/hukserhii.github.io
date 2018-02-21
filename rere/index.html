@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="style.css" crossorigin="anonymous">
 
     <title>re:re</title>
@@ -21,7 +21,7 @@
 <body>
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white ">
     <!--<h5 class="my-0 mr-md-auto font-weight-normal border-logo">re:re</h5>-->
-    <h1 class="text-hide my-0 mr-md-auto font-weight-normal" style="background-image: url('img/logo.svg'); width: 50px; height: 50px;">re:re</h1>
+    <h1 class="text-hide my-0 mr-md-auto font-weight-normal" style="background: url('img/logo.svg') no-repeat center center; background-size: cover; ; width: 50px; height: 50px;">re:re</h1>
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 active" href="#">Blog</a>
         <a class="p-2" href="#">About</a>
@@ -96,38 +96,88 @@
             </div>
         </div>
 
-        <div class="tz-gallery">
+        <div class="tz-gallery imglist">
             <div class="row">
-                <div class="col-6">
-                    <a class="lightbox" href="img/photo-0.jpg">
+                <div class="col-sm-12 col-md-6">
+                    <a class="lightbox"  data-fancybox="images" href="img/photo-0.jpg">
                         <img src="img/photo-0.jpg" alt="photo">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-6 col-md-3">
                     <a class="lightbox" href="img/photo-1.jpg">
                         <img src="img/photo-1.jpg" alt="photo">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-6 col-md-3">
                     <a class="lightbox" href="img/photo-2.jpg">
                         <img src="img/photo-2.jpg" alt="photo">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-3">
                     <a class="lightbox" href="img/photo-3.jpg">
                         <img src="img/photo-3.jpg" alt="photo">
                     </a>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-6 col-md-3">
                     <a class="lightbox" href="img/photo-4.jpg">
                         <img src="img/photo-4.jpg" alt="photo">
                     </a>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6 col-md-6">
                     <a class="lightbox" href="img/photo-5.jpg">
                         <img src="img/photo-5.jpg" alt="photo">
                     </a>
                 </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="header col-12 px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+                <h2 class=" text-center">L'atelier De Gaztelur</h2>
+                <p class="blog-post-meta text-center">France, Paris / 20.02.2018 / 09:45</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-4  text-left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque distinctio dolor ducimus error ex hic inventore laudantium magnam maxime neque nisi qui ratione reiciendis suscipit temporibus totam, ullam vitae?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque distinctio dolor ducimus error ex hic inventore laudantium magnam maxime neque nisi qui ratione reiciendis suscipit temporibus totam, ullam vitae?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque distinctio dolor ducimus error ex hic inventore laudantium magnam maxime neque nisi qui ratione reiciendis suscipit temporibus totam, ullam vitae?</p>
+            </div>
+            <div class="col-4 text-left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque distinctio dolor ducimus error ex hic inventore laudantium magnam maxime neque nisi qui ratione reiciendis suscipit temporibus totam, ullam vitae?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque distinctio dolor ducimus error ex hic inventore laudantium magnam maxime neque nisi qui ratione reiciendis suscipit temporibus totam, ullam vitae?</p>
+            </div>
+        </div>
+
+        <div class="tz-gallery imglist">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <a class="lightbox"  data-fancybox="images" href="img/photo-0.jpg">
+                        <img src="img/photo-0.jpg" alt="photo">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <a class="lightbox" href="img/photo-1.jpg">
+                        <img src="img/photo-1.jpg" alt="photo">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <a class="lightbox" href="img/photo-2.jpg">
+                        <img src="img/photo-2.jpg" alt="photo">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <a class="lightbox" href="img/photo-3.jpg">
+                        <img src="img/photo-3.jpg" alt="photo">
+                    </a>
+                </div>
+
             </div>
         </div>
 
@@ -148,6 +198,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+<script src="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 </body>
 </html>
