@@ -233,17 +233,19 @@ nav li .active,
 }
 .article_info ul.contact_article {
     float: left;
-     width: 75%;
+     width: 60%;
      text-align: left;
 }
 
 .article_info {
     margin: auto;
-    padding: 30px 10px;
+    padding: 30px 5px;
 }
 
 .article_info ul.soc_article {
     float: right;
+    width: 40%;
+    text-align: right;
 }
 
 .article_info ul.contact_article li, .article_info ul.soc_article li {
@@ -257,6 +259,17 @@ nav li .active,
     background-position: left center;
 }
 
+.article_info-page ul.contact_article li{
+    display: block;
+    vertical-align: top;
+    font-size: 16px;
+    color: #000;
+    line-height: 24px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.article_info-page ul.contact_article li a,
 .article-info ul.contact-article li a, .article-info ul.soc-article li a {
     font-size: 16px;
     background-repeat: no-repeat;
@@ -274,20 +287,18 @@ nav li .active,
     background-repeat: no-repeat;
     background-position: left top;
     display: block;
-    height: 20px;
+    height: 16px;
     padding-left: 30px;
     padding-right: 20px;
-    background-size: auto 20px;
-    line-height: 24px;
+    background-size: auto 16px;
+    line-height: 19px;
 }
+.article_info-page ul.contact_article li a.icon-phone,
 .article_info ul.contact_article li a.icon-phone {
     background-image: url(img/phone-icon.svg);
 }
 .article_info ul.contact_article li a.icon-site {
     background-image: url(img/earth-icon.svg);
-}
-.article_info ul.contact_article li a.icon-locale {
-    background-image: url(img/location-icon.svg);
 }
 .article_info ul.contact_article li a.icon-local {
     background-image: url(img/location-icon.svg);
@@ -303,5 +314,14 @@ nav li .active,
 }
 .article_info ul.soc_article li a.icon-google {
     background-image: url(img/google-plus-icon.svg);
+}
+.icon-local span.icon-loc {
+    min-height: 28px;
+    display: inline-block;
+    background: url(img/location-icon.svg) no-repeat 0 0;
+    line-height: 20px !important;
+    padding-left: 28px;
+    margin-left: 10px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
 }
 

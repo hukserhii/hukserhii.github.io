@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rere/img/earth-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/location-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/phone-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/twitter-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rere/img/vk-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rere/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rere/img/fancybox-master.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rere/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rere/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rere/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/rere/style.css" afterDir="false" />
     </list>
@@ -27,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rere/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="150" column="70" selection-start-line="150" selection-start-column="70" selection-end-line="150" selection-end-column="70" />
+            <state relative-caret-position="228">
+              <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -36,16 +32,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rere/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="7637" column="1" selection-start-line="7637" selection-start-column="1" selection-end-line="7637" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rere/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="298" column="49" lean-forward="true" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
+            <state relative-caret-position="-1362">
+              <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rere/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rere/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="32" selection-start-line="32" selection-end-line="45" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -53,7 +89,7 @@
       <find>footer-bottom</find>
       <find>bg-about</find>
       <find>hero1</find>
-      <find />
+      <find>.portfolio-image &gt; li</find>
       <find>img4</find>
       <find>icon-local</find>
     </findStrings>
@@ -69,8 +105,11 @@
         <option value="$PROJECT_DIR$/huks/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/huks/css/style.css" />
+        <option value="$PROJECT_DIR$/rere/About.html" />
         <option value="$PROJECT_DIR$/rere/index.html" />
+        <option value="$PROJECT_DIR$/rere/about.html" />
         <option value="$PROJECT_DIR$/rere/style.css" />
+        <option value="$PROJECT_DIR$/rere/contact.html" />
       </list>
     </option>
   </component>
@@ -107,12 +146,6 @@
               <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="rere" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="rere" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -121,9 +154,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -293,7 +327,7 @@
       <workItem from="1517498399546" duration="2612000" />
       <workItem from="1519051038829" duration="1406000" />
       <workItem from="1519113510089" duration="2533000" />
-      <workItem from="1519321056034" duration="5340000" />
+      <workItem from="1519321056034" duration="9173000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -554,32 +588,39 @@
       <option name="project" value="LOCAL" />
       <updated>1519243369659</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="re:re v">
+      <created>1519327213262</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1519327213262</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63023000" />
+    <option name="totallyTimeSpent" value="66856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15252976" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15252976" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988507" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32988507" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34811166" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34811166" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32988507" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32988507" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -642,24 +683,10 @@
     <MESSAGE value="preloader logo" />
     <MESSAGE value="preloader logo + re:re" />
     <MESSAGE value="re:re" />
-    <option name="LAST_COMMIT_MESSAGE" value="re:re" />
+    <MESSAGE value="re:re v" />
+    <option name="LAST_COMMIT_MESSAGE" value="re:re v" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/huks/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20213">
-          <caret line="1189" column="10" lean-forward="true" selection-start-line="1189" selection-start-column="10" selection-end-line="1189" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15232">
-          <caret line="896" column="71" selection-start-line="896" selection-start-column="71" selection-end-line="896" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME" />
     <entry file="file://$PROJECT_DIR$/viaron/index.html" />
     <entry file="file://$PROJECT_DIR$/yard.co.ua/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -933,20 +960,47 @@
     <entry file="file://$PROJECT_DIR$/rere/img/location-icon.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rere/index.html">
+    <entry file="file://$PROJECT_DIR$/rere/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="150" column="70" selection-start-line="150" selection-start-column="70" selection-end-line="150" selection-end-column="70" />
+        <state relative-caret-position="238">
+          <caret line="32" selection-start-line="32" selection-end-line="45" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rere/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="298" column="49" lean-forward="true" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
+        <state relative-caret-position="-1362">
+          <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rere/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="7637" column="1" selection-start-line="7637" selection-start-column="1" selection-end-line="7637" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rere/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rere/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
