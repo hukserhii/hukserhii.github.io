@@ -1,12 +1,12 @@
 @import "css/stylename.css" screen;
 
 body {
-    font-family: "PFCentroSlabProRegular",sans-serif;
+    font-family: "PFCentroSlabProRegular",'Times New Roman',serif;
 }
 
 nav {
     font-size: 25px;
-    font-family: "PFCentroSlabProMedium",sans-serif;
+    font-family: "PFCentroSlabProMedium",'Times New Roman',serif;
     color: #a3a3a3;
 }
 
@@ -14,8 +14,30 @@ nav a {
     color: #a3a3a3;
 }
 
-nav .active {
-    color: #000;
+nav .active,
+nav li .active,
+.active {
+    color: #000!important;
+}
+
+.nav-item  {
+    font-family: "PFCentroSlabProMedium",'Times New Roman',serif;
+
+}
+
+.color-gray,
+.color-gray a {
+    color: #7f7f7f;
+}
+
+.location-article span.icon-loc {
+    min-height: 28px;
+    display: inline-block;
+    background: url(img/location-icon.svg) no-repeat 0 0px;
+    line-height: 20px !important;
+    padding-left: 28px;
+    margin-left: 10px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
 }
 
 .border-logo {
@@ -72,4 +94,144 @@ nav .active {
     pointer-events: none;
     z-index: 9000;
     transition: 0.4s;
+}
+
+
+.gallery-block a {
+    display: block;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.img2 a {
+    width: 50%;
+    max-height: 408px;
+    height: 47vh;
+    min-height: 408px;
+}
+
+.img2 img, .img3 img, .img4 img, .img5 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img3 a {
+    width: 40%;
+    height: 38vh;
+    max-height: 325px;
+    min-height: 325px;
+}
+
+.img3 a:first-child {
+    width: 60%;
+    height: 76vh;
+    max-height: 650px;
+    min-height: 650px;
+}
+
+.img3.mirror a:nth-child(1), .img3.mirror a:nth-child(3) {
+    width: 40%;
+    height: 38vh;
+    max-height: 325px;
+    float: left;
+    min-height: 325px;
+}
+
+.img3.mirror a:nth-child(2) {
+    width: 60%;
+    height: 76vh;
+    max-height: 650px;
+    float: right;
+    min-height: 650px;
+}
+
+.img4 a {
+    width: 50%;
+    height: 47vh;
+    max-height: 408px;
+    min-height: 408px;
+}
+
+.img5 a {
+    width: 40%;
+    float: right;
+    height: 38vh;
+    max-height: 326px;
+    min-height: 326px;
+}
+
+.img5 a:first-child, .img5 a:nth-child(4) {
+    width: 60%;
+    float: left;
+    height: 57vh;
+    max-height: 489px;
+    min-height: 489px;
+}
+
+.img5.mirror a:first-child, .img5.mirror a:nth-child(3), .img5.mirror a:nth-child(5) {
+    width: 40%;
+    float: left;
+    height: 38vh;
+    max-height: 326px;
+    min-height: 326px;
+}
+
+.img5.mirror a:nth-child(2), .img5.mirror a:nth-child(4) {
+    width: 60%;
+    float: right;
+    height: 57vh;
+    max-height: 489px;
+    min-height: 489px;
+}
+
+.gallery-block div, .gallery-block div a span {
+    display: none;
+}
+
+.gallery-block div:first-child, .gallery-block div:first-child a:last-of-type span {
+    display: block;
+}
+
+.gallery-block div:first-child a:last-of-type span {
+    display: table
+}
+
+.gallery-block {
+    position: relative;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.gallery-block div a span {
+    font-size: 68px;
+    display: none;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gallery-block div a span b {
+    font-weight: normal;
+    margin: 0 auto;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 11px;
+}
+
+.hide-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    cursor: pointer;
 }
