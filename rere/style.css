@@ -324,4 +324,7 @@ nav li .active,
     margin-left: 10px;
     font-family: 'Open Sans',Arial,Helvetica,sans-serif;
 }
-
+.fancybox-button--rere svg  {
+    width: 40px;
+    height: 40px;
+}
