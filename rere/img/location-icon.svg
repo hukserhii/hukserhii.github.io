@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>location-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1" transform="translate(-16.000000, 0.000000)">
+            <g id="location-icon" transform="translate(16.000000, 0.000000)">
+                <path d="M7.505,0 C11.65,0 15.01,3.358 15.01,7.501 C15.01,11.644 8.727,20.003 7.505,20.003 C6.283,20.003 0,11.644 0,7.501 C0,3.358 3.36,0 7.505,0 L7.505,0 Z" id="Shape" fill="#7F7F7F"></path>
+                <path d="M7.512,4.528 C9.176,4.528 10.525,5.864 10.525,7.512 C10.525,9.16 9.176,10.496 7.512,10.496 C5.848,10.496 4.499,9.16 4.499,7.512 C4.499,5.864 5.848,4.528 7.512,4.528 L7.512,4.528 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
