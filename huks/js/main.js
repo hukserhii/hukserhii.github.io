@@ -196,7 +196,7 @@
 
 })(jQuery);
 
-$('[data-fancybox="images"]').fancybox({
+$('[data-fancybox="images-1"]').fancybox({
     idleTime  : false,
     baseClass : 'fancybox-custom-layout',
     margin    : 0,
@@ -222,6 +222,6 @@ $('[data-fancybox="images"]').fancybox({
         instance.$refs.inner.wrap( '<div class="fancybox-outer"></div>' );
     },
     caption : function(instance, item) {
-        return '<h3>Collection #162 – <br /> The Histographer</h3><p>This collection of photos, curated by The Histographer, is a collection around the concept of \'Autumn is here\'.</p><p><a href="https://unsplash.com/collections/curated/162" target="_blank">unsplash.com</a></p>';
+        return '<h3>Fashtag.club #12 – <br /> The Histographer</h3><p>Лендинг для презентации новой социальной сети в отрасли моды.</p><p><a href="hukserhii.github.io/fashtag.club/index.html" target="_blank">Fashtag</a></p>';
     }
 });

@@ -1287,8 +1287,8 @@ ul.portfolio-image li .desc{
         bottom: 50px;
         right: 50px;
         margin: auto;
-        max-width: 1180px;
-        max-height: 495px;
+        max-width: 1366px;
+        max-height: 768px;
         overflow: visible;
         background: #fff;
         box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
@@ -1302,7 +1302,7 @@ ul.portfolio-image li .desc{
 
     /* Set color for background element */
     .fancybox-custom-layout .fancybox-bg {
-        background: #f6f6f6;
+        background: rgba(246, 246, 246, 0.90);
     }
 
     .fancybox-custom-layout.fancybox-is-open .fancybox-bg {
