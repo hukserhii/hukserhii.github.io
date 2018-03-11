@@ -8983,6 +8983,68 @@ a.text-dark:hover, a.text-dark:focus {
     height: 100%;
     width: 100%;
     visibility: visible;
-    padding: 0 4%;
+    padding: 0 5%;
+    background-color: rgba(151, 151, 151, .5);
 
+}
+
+.header-logo {
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    left: -4%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: url(../media/main_logo.svg);
+    width: 45px;
+    background-size: 35px;
+}
+
+.header-menu-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 10px;
+    /*display: inline-block;*/
+    vertical-align: middle;
+}
+
+.elem-section {
+    padding: 70px 0 0 0;
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 0 50px;
+        text-align: center;
+        align-items: center;
+        max-height: 45px;
+    }
+    .header-logo{
+        width: 250px;
+        background-size: 250px;
+        background-image: url(../media/main_logo.svg);
+    }
+    .elem-section:before {
+        content: "";
+        background: #cfcfcf url(../media/background-contractor-icon.png) 50% no-repeat;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        opacity: .2;
+    }
+    .elem-wrap {
+        border: 1px solid #c5c5bd;
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+    }
 }
