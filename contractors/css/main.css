@@ -8973,3 +8973,16 @@ a.text-dark:hover, a.text-dark:focus {
     }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 45px;
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    padding: 0 4%;
+
+}
