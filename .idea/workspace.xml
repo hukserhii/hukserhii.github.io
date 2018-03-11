@@ -18,32 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contractors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="88" lean-forward="true" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+            <state relative-caret-position="408">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-3.2.1.slim.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contractors/js/jquery-3.2.1.slim.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="3" column="5290" selection-start-line="3" selection-start-column="5290" selection-end-line="3" selection-end-column="5290" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="8984" column="24" selection-start-line="8984" selection-start-column="24" selection-end-line="8984" selection-end-column="24" />
+            <state relative-caret-position="341">
+              <caret line="9122" lean-forward="true" selection-start-line="9122" selection-end-line="9122" />
               <folding>
                 <element signature="e#80349#80549#2" expanded="true" />
                 <element signature="e#80783#80932#2" expanded="true" />
@@ -244,7 +232,7 @@
       <workItem from="1519372258598" duration="2384000" />
       <workItem from="1519634965247" duration="3863000" />
       <workItem from="1520631083956" duration="4421000" />
-      <workItem from="1520702181305" duration="1514000" />
+      <workItem from="1520702181305" duration="13473000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -540,11 +528,25 @@
       <option name="project" value="LOCAL" />
       <updated>1520634916219</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add">
+      <created>1520769930572</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1520769930572</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add css">
+      <created>1520775553410</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1520775553411</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69823000" />
+    <option name="totallyTimeSpent" value="81782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -557,7 +559,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988507" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49972782" weight="0.3494253" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49972782" weight="0.34925866" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -604,13 +606,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="logo new" />
     <MESSAGE value="logo" />
     <MESSAGE value="file" />
     <MESSAGE value="img add" />
     <MESSAGE value="icon" />
     <MESSAGE value="фраза" />
-    <MESSAGE value="add" />
     <MESSAGE value="add new photo" />
     <MESSAGE value="add new img portfolio" />
     <MESSAGE value="bg" />
@@ -629,7 +629,9 @@
     <MESSAGE value="f" />
     <MESSAGE value="task contractors first commit" />
     <MESSAGE value="task contractors" />
-    <option name="LAST_COMMIT_MESSAGE" value="task contractors" />
+    <MESSAGE value="add" />
+    <MESSAGE value="add css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/huks/js/main.js">
@@ -940,10 +942,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contractors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="8984" column="24" selection-start-line="8984" selection-start-column="24" selection-end-line="8984" selection-end-column="24" />
+        <state relative-caret-position="341">
+          <caret line="9122" lean-forward="true" selection-start-line="9122" selection-end-line="9122" />
           <folding>
             <element signature="e#80349#80549#2" expanded="true" />
             <element signature="e#80783#80932#2" expanded="true" />
@@ -954,13 +963,6 @@
             <element signature="e#131189#131379#2" expanded="true" />
             <element signature="e#131436#131626#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contractors/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="88" lean-forward="true" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
         </state>
       </provider>
     </entry>

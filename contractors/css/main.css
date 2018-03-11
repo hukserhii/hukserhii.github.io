@@ -8974,6 +8974,20 @@ a.text-dark:hover, a.text-dark:focus {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+body, html {
+    font-family: Open Sans,sans-serif;
+    color: #343434;
+    background: #F2F3F5;
+}
+
+:focus {
+    outline: none;
+}
+
+button, input {
+    overflow: visible;
+}
+
 .header {
     overflow: hidden;
     position: fixed;
@@ -8984,19 +8998,18 @@ a.text-dark:hover, a.text-dark:focus {
     width: 100%;
     visibility: visible;
     padding: 0 5%;
-    background-color: rgba(151, 151, 151, .5);
-
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 999;
 }
 
 .header-logo {
     height: 45px;
     display: inline-block;
     position: relative;
-    left: -4%;
     top: 0;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    background-image: url(../media/main_logo.svg);
+    /*background-repeat: no-repeat;*/
+    /*background-position: 100%;*/
+    background: url(../media/main_logo.svg) 100% no-repeat ;
     width: 45px;
     background-size: 35px;
 }
@@ -9010,9 +9023,104 @@ a.text-dark:hover, a.text-dark:focus {
     vertical-align: middle;
 }
 
+.header-menu-link:hover {
+    color: #3475d3;
+}
+
 .elem-section {
     padding: 70px 0 0 0;
 }
+
+.elem-header {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 2% 2% 24px;
+    position: relative;
+    text-align: left;
+}
+
+.elem-header b {
+    color: #3475d3;
+}
+
+.elem-wrap {
+    background-color: #fff;
+    position: relative;
+    /*padding: 20px 0 10px;*/
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.elem-form {
+    max-width: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.elem-item-wrap {
+
+}
+
+.elem-input-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.elem-input {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto 10px;
+    border: 1px solid #30afec;
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #343434;
+    max-width: 500px;
+
+}
+
+.login-btn {
+    background-image: linear-gradient(270deg, #437AD3 0%, #26D3FE 100%);
+    background-color: #437AD3;
+    border-radius: 68px;
+    height: 52px;
+    min-width: 150px;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    margin: 16px 0 25px;
+    border: none;
+    transition: background-image .4s ease;
+
+}
+
+.login-btn:hover {
+    background: linear-gradient(270deg, #26D3FE 0%, #437AD3 100%);
+
+}
+
+.login-btn:focus {
+    outline: none;
+}
+
+.field-label {
+    position: absolute;
+    left: 17px;
+    top: 11px;
+    color: #acacac;
+    line-height: 1;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
 
 @media (min-width: 768px) {
     .header {
@@ -9030,7 +9138,7 @@ a.text-dark:hover, a.text-dark:focus {
     }
     .elem-section:before {
         content: "";
-        background: #cfcfcf url(../media/background-contractor-icon.png) 50% no-repeat;
+        background: #f2f3f5 url(../media/background-contractor-icon.png) 50% no-repeat;
         background-size: cover;
         position: fixed;
         top: 0;
@@ -9038,13 +9146,18 @@ a.text-dark:hover, a.text-dark:focus {
         left: 0;
         right: 0;
         z-index: 0;
-        opacity: .2;
+        mix-blend-mode: overlay;
+        opacity: 0.4;
     }
     .elem-wrap {
-        border: 1px solid #c5c5bd;
+        border: 1px solid #e0e0e0;
         width: 95%;
         margin: 0 auto;
-        padding: 10px;
+        /*padding: 10px;*/
         text-align: center;
+    }
+    .login-btn-wrap {
+        margin: 123px 0 0;
+        border-top: 1px solid #e0e0e0;
     }
 }
