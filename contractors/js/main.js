@@ -3988,3 +3988,23 @@ if(isAndroidDevice > -1){
 else if( isAppleDevice() ){
     $('body').addClass('iOS');
 }
+
+function validate() {
+    var fullName = document.getElementById("inputName").value;
+    var email = document.getElementById("inputEmail").value;
+    var password = document.getElementById("inputPass").value;
+    if (fullName == null || fullName == "") {
+        console.log("Please enter the username.");
+        return false;
+    }
+    if (email == null ||inputEmail == "") {
+        console.log("Please enter the password.");
+        return false;
+    }
+    if (password == null || inputPass == "") {
+        console.log("Please enter the password.");
+        return false;
+    }
+    console.log({'name' : fullName, 'email': email, 'password': (password.toLocaleUpperCase() + " > " + password.toLocaleUpperCase().split("").reverse().join(""))});
+
+}

@@ -22,17 +22,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contractors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="43" column="102" selection-start-line="43" selection-start-column="102" selection-end-line="43" selection-end-column="102" />
+            <state relative-caret-position="408">
+              <caret line="46" column="99" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9030" column="20" lean-forward="true" selection-start-line="9030" selection-start-column="20" selection-end-line="9030" selection-end-column="20" />
+            <state relative-caret-position="355">
+              <caret line="9234" column="21" selection-start-line="9234" selection-start-column="21" selection-end-line="9234" selection-end-column="21" />
               <folding>
                 <element signature="e#80349#80549#2" expanded="true" />
                 <element signature="e#80783#80932#2" expanded="true" />
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="3974" lean-forward="true" selection-start-line="3974" selection-end-line="3974" />
+            <state relative-caret-position="474">
+              <caret line="4007" column="100" selection-start-line="4007" selection-start-column="100" selection-end-line="4007" selection-end-column="100" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -93,9 +93,9 @@
         <option value="$PROJECT_DIR$/huks/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contractors/js/jquery-3.2.1.slim.min.js" />
-        <option value="$PROJECT_DIR$/contractors/js/main.js" />
-        <option value="$PROJECT_DIR$/contractors/index.html" />
         <option value="$PROJECT_DIR$/contractors/css/main.css" />
+        <option value="$PROJECT_DIR$/contractors/index.html" />
+        <option value="$PROJECT_DIR$/contractors/js/main.js" />
       </list>
     </option>
   </component>
@@ -233,7 +233,7 @@
       <workItem from="1519372258598" duration="2384000" />
       <workItem from="1519634965247" duration="3863000" />
       <workItem from="1520631083956" duration="4421000" />
-      <workItem from="1520702181305" duration="18383000" />
+      <workItem from="1520702181305" duration="32174000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -550,11 +550,25 @@
       <option name="project" value="LOCAL" />
       <updated>1520788395954</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="new input css">
+      <created>1520793386857</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1520793386857</updated>
+    </task>
+    <task id="LOCAL-00047" summary="new input css">
+      <created>1520800928555</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1520800928555</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86692000" />
+    <option name="totallyTimeSpent" value="100483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -614,7 +628,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="file" />
     <MESSAGE value="img add" />
     <MESSAGE value="icon" />
     <MESSAGE value="фраза" />
@@ -639,7 +652,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="add css" />
     <MESSAGE value="add new css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new css" />
+    <MESSAGE value="new input css" />
+    <option name="LAST_COMMIT_MESSAGE" value="new input css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/huks/js/main.js">
@@ -940,27 +954,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="3974" lean-forward="true" selection-start-line="3974" selection-end-line="3974" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contractors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="102" selection-start-line="43" selection-start-column="102" selection-end-line="43" selection-end-column="102" />
+        <state relative-caret-position="408">
+          <caret line="46" column="99" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9030" column="20" lean-forward="true" selection-start-line="9030" selection-start-column="20" selection-end-line="9030" selection-end-column="20" />
+        <state relative-caret-position="355">
+          <caret line="9234" column="21" selection-start-line="9234" selection-start-column="21" selection-end-line="9234" selection-end-column="21" />
           <folding>
             <element signature="e#80349#80549#2" expanded="true" />
             <element signature="e#80783#80932#2" expanded="true" />
@@ -970,6 +974,16 @@
             <element signature="e#97654#97903#2" expanded="true" />
             <element signature="e#131189#131379#2" expanded="true" />
             <element signature="e#131436#131626#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="4007" column="100" selection-start-line="4007" selection-start-column="100" selection-end-line="4007" selection-end-column="100" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

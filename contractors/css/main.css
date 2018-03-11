@@ -9123,7 +9123,8 @@ body, html {
     display: inline-block;
     margin:  0 0 2em;
     max-width: 500px;
-    width: calc(100% - 2em);
+    /*width: calc(100% - 2em);*/
+    width: 100%;
     vertical-align: top;
 }
 
@@ -9229,14 +9230,14 @@ label {
     background: #fff;
     color:  #30afec;
     z-index: 99;
-    width: max-content;
-    /* padding: 0 0; */
-    padding-left: 5px;
-    padding-right: 5px;
+    bottom: -20px;
+    width: fit-content;
+    padding: 0 5px 0;
+    margin-bottom: 40px;
 }
 
-input:invalid:not(:placeholder-shown) {border-color: red;}
-input:valid:not(:placeholder-shown) {border-color: green;}
+input:invalid:not(:placeholder-shown) {border-color: #FF0423; color: #FF0423;}
+input:valid:not(:placeholder-shown) {border-color: #30afec;}
 
 @media (min-width: 768px) {
     .header {

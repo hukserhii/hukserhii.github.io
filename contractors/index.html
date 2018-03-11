@@ -26,7 +26,7 @@
             <div class="elem-wrap">
                 <h2 class="elem-header">Perfect! Let's Set Up Your <b>Account</b></h2>
                 <div>
-                    <form class="elem-form" action="">
+                    <form class="elem-form" action="login.php" method="post">
                         <div class="elem-item-wrap">
                             <!--<div class="elem-input-wrap">-->
                                 <!--<label class="field-label" for="inputName">Firs Name</label>-->
@@ -44,7 +44,7 @@
                             <span class="input input-elem">
                                 <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputName" required/>
                                 <label class="input-label input-label-elem" for="inputName">
-                                    <span class="input-label-content input-label-content-elem">First Name</span>
+                                    <span class="input-label-content input-label-content-elem">Full Name</span>
                                 </label>
                             </span>
                             <span class="input input-elem">
@@ -63,7 +63,7 @@
                         </div>
                     </form>
                     <div class="login-btn-wrap">
-                        <button class="login-btn" type="submit">Submit</button>
+                        <button class="login-btn" type="submit" value="Login" id="submit" onclick="validate();">Submit</button>
                     </div>
                 </div>
             </div>
