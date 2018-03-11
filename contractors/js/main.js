@@ -3972,3 +3972,19 @@
     }
 
 })( window );
+
+function isAppleDevice(){
+    return (
+        (navigator.userAgent.toLowerCase().indexOf("ipad") > -1) ||
+        (navigator.userAgent.toLowerCase().indexOf("iphone") > -1) ||
+        (navigator.userAgent.toLowerCase().indexOf("ipod") > -1)
+    );
+}
+
+var isAndroidDevice = navigator.userAgent.toLowerCase().indexOf("android");
+if(isAndroidDevice > -1){
+    $('body').addClass('Android');
+}
+else if( isAppleDevice() ){
+    $('body').addClass('iOS');
+}

@@ -21,53 +21,87 @@
             </nav>
         </div>
     </header>
-    <section class="elem-section">
-        <div class="elem-wrap">
-            <h2 class="elem-header">Perfect! Let's Set Up Your <b>Account</b></h2>
-            <div>
-                <form class="elem-form" action="">
-                    <div class="elem-item-wrap">
-                        <!--<div class="elem-input-wrap">-->
-                            <!--<label class="field-label" for="inputName">Firs Name</label>-->
-                            <!--<input  type="text" class="elem-input" id="inputName">-->
-                        <!--</div>-->
-                        <!--<div class="elem-input-wrap">-->
-                            <!--<label class="field-label" for="inputEmail">Email Address</label>-->
-                            <!--<input  type="email" class="elem-input" id="inputEmail">-->
-                        <!--</div>-->
-                        <!--<div class="elem-input-wrap">-->
-                            <!--<label class="field-label" for="inputPass">Password (Mast be 6 characters)</label>-->
-                            <!--<input  type="password" class="elem-input" id="inputPass">-->
-                        <!--</div>-->
+    <div class="elem-section">
+        <section class="">
+            <div class="elem-wrap">
+                <h2 class="elem-header">Perfect! Let's Set Up Your <b>Account</b></h2>
+                <div>
+                    <form class="elem-form" action="">
+                        <div class="elem-item-wrap">
+                            <!--<div class="elem-input-wrap">-->
+                                <!--<label class="field-label" for="inputName">Firs Name</label>-->
+                                <!--<input  type="text" class="elem-input" id="inputName">-->
+                            <!--</div>-->
+                            <!--<div class="elem-input-wrap">-->
+                                <!--<label class="field-label" for="inputEmail">Email Address</label>-->
+                                <!--<input  type="email" class="elem-input" id="inputEmail">-->
+                            <!--</div>-->
+                            <!--<div class="elem-input-wrap">-->
+                                <!--<label class="field-label" for="inputPass">Password (Mast be 6 characters)</label>-->
+                                <!--<input  type="password" class="elem-input" id="inputPass">-->
+                            <!--</div>-->
 
-                        <span class="input input-elem">
-                            <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputName" />
-                            <label class="input-label input-label-elem" for="inputName">
-                                <span class="input-label-content input-label-content-elem">First Name</span>
-                            </label>
-                        </span>
-                        <span class="input input-elem">
-                            <input class="input-field input-field-elem" type="email" autocomplete="off" id="inputEmail" />
-                            <label class="input-label input-label-elem" for="inputEmail">
-                                <span class="input-label-content input-label-content-elem">Email Address</span>
-                            </label>
-                        </span>
-                        <span class="input input-elem">
-                            <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputPass" />
-                            <label class="input-label input-label-elem" for="inputPass">
-                                <span class="input-label-content input-label-content-elem">Password (Must be 6 characters)</span>
-                            </label>
-                        </span>
+                            <span class="input input-elem">
+                                <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputName" required/>
+                                <label class="input-label input-label-elem" for="inputName">
+                                    <span class="input-label-content input-label-content-elem">First Name</span>
+                                </label>
+                            </span>
+                            <span class="input input-elem">
+                                <input class="input-field input-field-elem" type="email" autocomplete="off" id="inputEmail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" required/>
+                                <label class="input-label input-label-elem" for="inputEmail">
+                                    <span class="input-label-content input-label-content-elem">Email Address</span>
+                                </label>
+                            </span>
+                            <span class="input input-elem">
+                                <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputPass" pattern=".{5,}" required/>
+                                <label class="input-label input-label-elem" for="inputPass">
+                                    <span class="input-label-content input-label-content-elem">Password (Must be 6 characters)</span>
+                                </label>
+                            </span>
 
+                        </div>
+                    </form>
+                    <div class="login-btn-wrap">
+                        <button class="login-btn" type="submit">Submit</button>
                     </div>
-                </form>
-                <div class="login-btn-wrap">
-                    <button class="login-btn" type="submit">Submit</button>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+
 </main>
+<script>
+    (function() {
+        if (!String.prototype.trim) {
+            (function() {
+                var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+                String.prototype.trim = function() {
+                    return this.replace(rtrim, '');
+                };
+            })();
+        }
+
+        [].slice.call( document.querySelectorAll( 'input.input-field' ) ).forEach( function( inputEl ) {
+            if( inputEl.value.trim() !== '' ) {
+                classie.add( inputEl.parentNode, 'input-filled' );
+            }
+
+            inputEl.addEventListener( 'focus', onInputFocus );
+            inputEl.addEventListener( 'blur', onInputBlur );
+        } );
+
+        function onInputFocus( ev ) {
+            classie.add( ev.target.parentNode, 'input-filled' );
+        }
+
+        function onInputBlur( ev ) {
+            if( ev.target.value.trim() === '' ) {
+                classie.remove( ev.target.parentNode, 'input-filled' );
+            }
+        }
+    })();
+</script>
 <script src="js/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
