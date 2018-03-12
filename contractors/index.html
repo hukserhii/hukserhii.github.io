@@ -13,8 +13,11 @@
 <main class="content">
     <header class="header">
         <a href="" class="header-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="header-menu">
-            <nav class="header-menu-nav">
+            <nav class="header-menu-nav ">
                 <a class="header-menu-link" href="/">1 link</a>
                 <a class="header-menu-link" href="/">2 link</a>
                 <a class="header-menu-link" href="/">3 link</a>
@@ -42,19 +45,19 @@
                             <!--</div>-->
 
                             <span class="input input-elem">
-                                <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputName" required/>
+                                <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputName" value required/>
                                 <label class="input-label input-label-elem" for="inputName">
                                     <span class="input-label-content input-label-content-elem">Full Name</span>
                                 </label>
                             </span>
                             <span class="input input-elem">
-                                <input class="input-field input-field-elem" type="email" autocomplete="off" id="inputEmail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" required/>
+                                <input class="input-field input-field-elem" type="email" autocomplete="off" id="inputEmail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" value required/>
                                 <label class="input-label input-label-elem" for="inputEmail">
                                     <span class="input-label-content input-label-content-elem">Email Address</span>
                                 </label>
                             </span>
                             <span class="input input-elem">
-                                <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputPass" pattern=".{5,}" required/>
+                                <input class="input-field input-field-elem" type="text" autocomplete="off" id="inputPass" pattern=".{5,}" value required/>
                                 <label class="input-label input-label-elem" for="inputPass">
                                     <span class="input-label-content input-label-content-elem">Password (Must be 6 characters)</span>
                                 </label>

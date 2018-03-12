@@ -3997,14 +3997,31 @@ function validate() {
         console.log("Please enter the username.");
         return false;
     }
-    if (email == null ||inputEmail == "") {
-        console.log("Please enter the password.");
+    if (email == null || email == "") {
+        console.log("Please enter the email.");
         return false;
     }
-    if (password == null || inputPass == "") {
+    if (password == null || password == "") {
         console.log("Please enter the password.");
         return false;
     }
     console.log({'name' : fullName, 'email': email, 'password': (password.toLocaleUpperCase() + " > " + password.toLocaleUpperCase().split("").reverse().join(""))});
 
 }
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('elem-form');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }, false);
+})();
