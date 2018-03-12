@@ -8977,7 +8977,7 @@ a.text-dark:hover, a.text-dark:focus {
 body, html {
     font-family: Open Sans,sans-serif;
     color: #343434;
-    background: #fff;
+    /*background: #fff;*/
 }
 
 :focus {
@@ -8989,13 +8989,29 @@ body, html {
     position: fixed;
     top: 0;
     left: 0;
-    max-height: 45px;
+    max-height: 86px;
     height: 100%;
     width: 100%;
     visibility: visible;
-    padding: 0 5%;
+    /*padding: 0 5%;*/
+
     background: linear-gradient(270deg, #26D3FE 0%, #437AD3 100%);
+
     z-index: 999;
+}
+
+.header:after {
+    content: "";
+    background: #f2f3f5 url(../media/background-contractor-icon.png) 50% no-repeat;
+    background-size: 214%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    mix-blend-mode: overlay;
+    opacity: 0.2;
 }
 
 .header-logo {
@@ -9024,7 +9040,18 @@ body, html {
 }
 
 .elem-section {
-    padding: 70px 0 0 0;
+    padding: 110px 0 0 0;
+}
+
+.header-caption {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    color: #444;
+    width: 100%;
+    max-height: 38px;
 }
 
 .elem-header {
@@ -9034,6 +9061,7 @@ body, html {
     padding: 4% 4% 24px;
     position: relative;
     text-align: left;
+    display: none;
 }
 
 .elem-header b {
@@ -9049,7 +9077,7 @@ body, html {
 }
 
 .elem-form {
-    max-width: 500px;
+    max-width: 341px;
     position: relative;
     margin: 0 auto;
 }
@@ -9100,9 +9128,44 @@ body, html {
 
 }
 
-.login-btn:hover {
-    background: linear-gradient(270deg, #26D3FE 0%, #437AD3 100%);
+/*.login-btn:hover {*/
+    /*background: linear-gradient(270deg, #26D3FE 0%, #437AD3 100%);*/
 
+/*}*/
+
+.login-btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+}
+.btn {
+    /*flex: 1 1 auto;*/
+    /*margin: 10px;*/
+    /*padding: 30px;*/
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    /*border-radius: 10px;*/
+}
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+.login-btn {
+    background-image: linear-gradient(to right, #437AD3 0%, #26D3FE 50%, #437AD3 120%);
 }
 
 .login-btn:focus {
@@ -9160,7 +9223,7 @@ label {
     font-style: normal;
     font-weight: normal;
     line-height: 12px;
-    font-size: 20px;
+    font-size: 18px;
     color: #acacac;
 }
 
@@ -9240,8 +9303,8 @@ label {
     margin-bottom: 40px;
 }
 
-input:invalid:not(:placeholder-shown) {border-color: #FF0423; color: #FF0423;}
-input:valid:not(:placeholder-shown) {border-color: #30afec;}
+/*input:invalid:not(:placeholder-shown) {border-color: #FF0423; color: #FF0423;}*/
+/*input:valid:not(:placeholder-shown) {border-color: #30afec;}*/
 
 @media (max-width: 767px) {
     .header:after {
@@ -9249,6 +9312,11 @@ input:valid:not(:placeholder-shown) {border-color: #30afec;}
     .header:after, .header:before {
     }
 }
+
+@media (min-width: 414px) {
+
+}
+
 @media (min-width: 768px) {
     .header {
         display: inline-flex;
@@ -9260,8 +9328,13 @@ input:valid:not(:placeholder-shown) {border-color: #30afec;}
         background: rgba(0, 0, 0, 0.45);
 
     }
-    .header:after {
+    .elem-header {
+        display: block;
     }
+    .header-caption {
+        display: none;
+    }
+
     .header-logo{
         width: 250px;
         background-size: 250px;
@@ -9278,7 +9351,7 @@ input:valid:not(:placeholder-shown) {border-color: #30afec;}
         right: 0;
         z-index: 0;
         mix-blend-mode: overlay;
-        opacity: 0.4;
+        opacity: 0.2;
     }
     .elem-wrap {
         border: 1px solid #e0e0e0;
@@ -9292,4 +9365,15 @@ input:valid:not(:placeholder-shown) {border-color: #30afec;}
         border-top: 1px solid #e0e0e0;
         text-align: center;
     }
+    .elem-section {
+        padding: 70px 0 0 0;
+    }
+    .elem-form {
+        max-width: 500px;
+    }
+    .input-label {
+        font-size: 20px;
+    }
 }
+
+
