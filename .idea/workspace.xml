@@ -4,7 +4,6 @@
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contractors/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contractors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contractors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+            <state relative-caret-position="17">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -30,42 +29,16 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1222">
-              <caret line="9156" column="1" lean-forward="true" selection-start-line="9156" selection-start-column="1" selection-end-line="9156" selection-end-column="1" />
+            <state relative-caret-position="544">
+              <caret line="9309" lean-forward="true" selection-start-line="9309" selection-end-line="9309" />
               <folding>
-                <element signature="e#80349#80549#2" expanded="true" />
-                <element signature="e#80783#80932#2" expanded="true" />
-                <element signature="e#81505#81651#2" expanded="true" />
-                <element signature="e#82025#82191#1" expanded="true" />
-                <element signature="e#96375#96618#2" expanded="true" />
-                <element signature="e#97654#97903#2" expanded="true" />
-                <element signature="e#131189#131379#2" expanded="true" />
-                <element signature="e#131436#131626#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67915">
-              <caret line="3999" column="39" selection-start-line="3999" selection-start-column="39" selection-end-line="3999" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1520938880930" expanded="true" signature="198228:198368" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -74,8 +47,6 @@
       <find>bg-about</find>
       <find>hero1</find>
       <find>.portfolio-image &gt; li</find>
-      <find>vali</find>
-      <find>.elem-section</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,9 +64,6 @@
         <option value="$PROJECT_DIR$/huks/css/style.css" />
         <option value="$PROJECT_DIR$/huks/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/contractors/js/jquery-3.2.1.slim.min.js" />
-        <option value="$PROJECT_DIR$/contractors/js/main.js" />
-        <option value="$PROJECT_DIR$/contractors/index.html" />
         <option value="$PROJECT_DIR$/contractors/css/main.css" />
       </list>
     </option>
@@ -109,21 +77,18 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/rere/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="14" />
     <option name="y" value="13" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="width" value="1875" />
+    <option name="height" value="1028" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,37 +107,21 @@
               <item name="contractors" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="contractors" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="contractors" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\hukserhii.github.io\contractors" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,10 +181,15 @@
       <workItem from="1519113510089" duration="2816000" />
       <workItem from="1519211399409" duration="2302000" />
       <workItem from="1519372258598" duration="2384000" />
-      <workItem from="1519634965247" duration="3863000" />
-      <workItem from="1520631083956" duration="4421000" />
-      <workItem from="1520702181305" duration="35606000" />
-      <workItem from="1520882608408" duration="4899000" />
+      <workItem from="1519634965247" duration="4177000" />
+      <workItem from="1519900648979" duration="19000" />
+      <workItem from="1520931224131" duration="929000" />
+      <workItem from="1520932258050" duration="364000" />
+      <workItem from="1520933207553" duration="37000" />
+      <workItem from="1520933300055" duration="23000" />
+      <workItem from="1520933898517" duration="398000" />
+      <workItem from="1520934345911" duration="320000" />
+      <workItem from="1520936034187" duration="1500000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -517,97 +471,41 @@
       <option name="project" value="LOCAL" />
       <updated>1519640430217</updated>
     </task>
-    <task id="LOCAL-00041" summary="task contractors first commit">
-      <created>1520631735528</created>
+    <task id="LOCAL-00041" summary="text edit">
+      <created>1519642517174</created>
       <option name="number" value="00041" />
       <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1520631735532</updated>
+      <updated>1519642517174</updated>
     </task>
-    <task id="LOCAL-00042" summary="task contractors">
-      <created>1520634916219</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1520634916219</updated>
-    </task>
-    <task id="LOCAL-00043" summary="add">
-      <created>1520769930572</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1520769930572</updated>
-    </task>
-    <task id="LOCAL-00044" summary="add css">
-      <created>1520775553410</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1520775553411</updated>
-    </task>
-    <task id="LOCAL-00045" summary="add new css">
-      <created>1520788395954</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1520788395954</updated>
-    </task>
-    <task id="LOCAL-00046" summary="new input css">
-      <created>1520793386857</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1520793386857</updated>
-    </task>
-    <task id="LOCAL-00047" summary="new input css">
-      <created>1520800928555</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1520800928555</updated>
-    </task>
-    <task id="LOCAL-00048" summary="form">
-      <created>1520810942400</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1520810942400</updated>
-    </task>
-    <task id="LOCAL-00049" summary="form">
-      <created>1520814066161</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1520814066161</updated>
-    </task>
-    <option name="localTasksCounter" value="50" />
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108814000" />
+    <option name="totallyTimeSpent" value="65918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="14" y="13" width="1875" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15252976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15438408" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50027215" side_tool="true" weight="0.3494253" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988507" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49972782" weight="0.34925866" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49972782" weight="0.3494253" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32988507" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294893" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32988507" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,8 +542,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="add new" />
+    <MESSAGE value="logo new" />
+    <MESSAGE value="logo" />
+    <MESSAGE value="file" />
+    <MESSAGE value="img add" />
     <MESSAGE value="icon" />
     <MESSAGE value="фраза" />
+    <MESSAGE value="add" />
     <MESSAGE value="add new photo" />
     <MESSAGE value="add new img portfolio" />
     <MESSAGE value="bg" />
@@ -662,30 +566,23 @@
     <MESSAGE value="img" />
     <MESSAGE value="re:re cl" />
     <MESSAGE value="f" />
-    <MESSAGE value="task contractors first commit" />
-    <MESSAGE value="task contractors" />
-    <MESSAGE value="add" />
-    <MESSAGE value="add css" />
-    <MESSAGE value="add new css" />
-    <MESSAGE value="new input css" />
-    <MESSAGE value="form" />
-    <option name="LAST_COMMIT_MESSAGE" value="form" />
+    <MESSAGE value="text edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="text edit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
+    <entry file="file://$PROJECT_DIR$/CNAME" />
+    <entry file="file://$PROJECT_DIR$/viaron/index.html" />
+    <entry file="file://$PROJECT_DIR$/yard.co.ua/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152643">
-          <caret line="8979" column="20" selection-start-line="8979" selection-start-column="20" selection-end-line="8979" selection-end-column="20" />
-          <folding>
-            <element signature="e#80349#80549#2" expanded="true" />
-            <element signature="e#80783#80932#2" expanded="true" />
-            <element signature="e#81505#81651#2" expanded="true" />
-            <element signature="e#82025#82191#1" expanded="true" />
-            <element signature="e#96375#96618#2" expanded="true" />
-            <element signature="e#97654#97903#2" expanded="true" />
-            <element signature="e#131189#131379#2" expanded="true" />
-            <element signature="e#131436#131626#2" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huks/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -906,110 +803,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rere/css/stylename.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="41" selection-start-line="31" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rere/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4794">
-          <caret line="283" column="14" selection-start-line="283" selection-start-column="14" selection-end-line="283" selection-end-column="14" />
-          <caret line="282" column="13" selection-start-line="282" selection-start-column="13" selection-end-line="282" selection-end-column="13" />
+        <state relative-caret-position="4760">
+          <caret line="280" selection-start-line="280" selection-end-line="280" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rere/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rere/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huks/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1289" column="26" lean-forward="true" selection-start-line="1289" selection-start-column="26" selection-end-line="1289" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huks/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="224" column="130" selection-start-line="224" selection-start-column="130" selection-end-line="224" selection-end-column="130" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
-          <caret line="164" column="70" selection-start-line="164" selection-start-column="70" selection-end-line="164" selection-end-column="70" />
+          <caret line="164" column="166" selection-start-line="164" selection-start-column="166" selection-end-line="164" selection-end-column="166" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rere/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/huks/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129829">
-          <caret line="7637" column="1" selection-start-line="7637" selection-start-column="1" selection-end-line="7637" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="1289" column="26" selection-start-line="1289" selection-start-column="26" selection-end-line="1289" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/huks/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="224" column="130" selection-start-line="224" selection-start-column="130" selection-end-line="224" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rere/css/stylename.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="41" selection-start-line="31" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rere/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contractors/js/jquery-3.2.1.slim.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="3" column="5290" selection-start-line="3" selection-start-column="5290" selection-end-line="3" selection-end-column="5290" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67915">
-          <caret line="3999" column="39" selection-start-line="3999" selection-start-column="39" selection-end-line="3999" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contractors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
-          <caret line="9156" column="1" lean-forward="true" selection-start-line="9156" selection-start-column="1" selection-end-line="9156" selection-end-column="1" />
+        <state relative-caret-position="544">
+          <caret line="9309" lean-forward="true" selection-start-line="9309" selection-end-line="9309" />
           <folding>
-            <element signature="e#80349#80549#2" expanded="true" />
-            <element signature="e#80783#80932#2" expanded="true" />
-            <element signature="e#81505#81651#2" expanded="true" />
-            <element signature="e#82025#82191#1" expanded="true" />
-            <element signature="e#96375#96618#2" expanded="true" />
-            <element signature="e#97654#97903#2" expanded="true" />
-            <element signature="e#131189#131379#2" expanded="true" />
-            <element signature="e#131436#131626#2" expanded="true" />
+            <marker date="1520938880930" expanded="true" signature="198228:198368" ph="..." />
           </folding>
         </state>
       </provider>
