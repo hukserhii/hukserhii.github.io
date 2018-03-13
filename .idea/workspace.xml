@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contractors/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contractors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contractors/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +21,25 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contractors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="513">
+              <caret line="57" column="57" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="4051" column="30" selection-start-line="4051" selection-start-column="30" selection-end-line="4051" selection-end-column="30" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -65,6 +78,8 @@
         <option value="$PROJECT_DIR$/huks/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contractors/css/main.css" />
+        <option value="$PROJECT_DIR$/contractors/index.html" />
+        <option value="$PROJECT_DIR$/contractors/js/main.js" />
       </list>
     </option>
   </component>
@@ -107,6 +122,12 @@
               <item name="contractors" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="contractors" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -117,11 +138,12 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contractors/index.html" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/contractors/index.html" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,7 +211,7 @@
       <workItem from="1520933300055" duration="23000" />
       <workItem from="1520933898517" duration="398000" />
       <workItem from="1520934345911" duration="320000" />
-      <workItem from="1520936034187" duration="1500000" />
+      <workItem from="1520936034187" duration="9495000" />
     </task>
     <task id="LOCAL-00001" summary="no follow">
       <created>1505217035553</created>
@@ -478,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519642517174</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add">
+      <created>1520938921802</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1520938921802</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65918000" />
+    <option name="totallyTimeSpent" value="73913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="13" width="1875" height="1028" extended-state="0" />
@@ -549,7 +578,6 @@
     <MESSAGE value="img add" />
     <MESSAGE value="icon" />
     <MESSAGE value="фраза" />
-    <MESSAGE value="add" />
     <MESSAGE value="add new photo" />
     <MESSAGE value="add new img portfolio" />
     <MESSAGE value="bg" />
@@ -567,10 +595,10 @@
     <MESSAGE value="re:re cl" />
     <MESSAGE value="f" />
     <MESSAGE value="text edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="text edit" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNAME" />
     <entry file="file://$PROJECT_DIR$/viaron/index.html" />
     <entry file="file://$PROJECT_DIR$/yard.co.ua/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -859,19 +887,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contractors/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contractors/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="9309" lean-forward="true" selection-start-line="9309" selection-end-line="9309" />
           <folding>
             <marker date="1520938880930" expanded="true" signature="198228:198368" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contractors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="4051" column="30" selection-start-line="4051" selection-start-column="30" selection-end-line="4051" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

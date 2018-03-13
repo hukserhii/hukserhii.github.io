@@ -3989,39 +3989,81 @@ else if( isAppleDevice() ){
     $('body').addClass('iOS');
 }
 
-function validate() {
-    var fullName = document.getElementById("inputName").value;
-    var email = document.getElementById("inputEmail").value;
-    var password = document.getElementById("inputPass").value;
-    if (fullName == null || fullName == "") {
-        console.log("Please enter the username.");
-        return false;
-    }
-    if (email == null || email == "") {
-        console.log("Please enter the email.");
-        return false;
-    }
-    if (password == null || password == "") {
-        console.log("Please enter the password.");
-        return false;
-    }
-    console.log({'name' : fullName, 'email': email, 'password': (password.toLocaleUpperCase() + " > " + password.toLocaleUpperCase().split("").reverse().join(""))});
+(function () {
+    var form = document.querySelector('.formValidation');
+    var fullName = document.getElementById("inputName");
+    var email = document.getElementById("inputEmail");
+    var password = document.getElementById("inputPass");
+    var fields = form.querySelectorAll('.finput-field');
 
-}
-(function() {
-    'use strict';
-    window.addEventListener('load', function() {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('elem-form');
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-            }, false);
-        });
-    }, false);
+    var generateError = function (text) {
+        var error = document.createElement('div');
+        error.className = 'error';
+        error.style.color = 'red';
+        error.innerHTML = text;
+        return error
+    };
+
+    var removeValidation = function () {
+        var errors = form.querySelectorAll('.error');
+
+        for (var i = 0; i < errors.length; i++) {
+            errors[i].remove()
+        }
+    };
+
+    var checkFieldsPresence = function () {
+        for (var i = 0; i < fields.length; i++) {
+            if (!fields[i].value) {
+                console.log('field is blank', fields[i]);
+                var error = generateError('Cannot be blank');
+                form[i].parentElement.insertBefore(error, fields[i])
+            }
+        }
+    };
+
+    // var checkFullNameMatch = function () {
+    //     if (fullName.value ) {
+    //         console.log('not equals');
+    //         var error = generateError('Password doesnt match');
+    //         password.parentElement.insertBefore(error, password)
+    //     }
+    // };
+
+    // var checkEmailMatch = function () {
+    //     if (email.value ) {
+    //         console.log('not equals');
+    //         var error = generateError('Password doesnt match');
+    //         password.parentElement.insertBefore(error, password)
+    //     }
+    // };
+
+    var checkPasswordMatch = function () {
+        if (password.value ) {
+            console.log('not equals');
+            var error = generateError('Password doesnt match');
+            password.parentElement.insertBefore(error, password)
+        }
+    };
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        removeValidation();
+        checkFieldsPresence();
+        checkPasswordMatch()
+    })
+    // if (fullName == null || fullName == "") {
+    //     console.log("Please enter the username.");
+    //     return false;
+    // }
+    // if (email == null || email == "") {
+    //     console.log("Please enter the email.");
+    //     return false;
+    // }
+    // if (password == null || password == "") {
+    //     console.log("Please enter the password.");
+    //     return false;
+    // }
+    // console.log({'name' : fullName, 'email': email, 'password': (password.toLocaleUpperCase() + " > " + password.toLocaleUpperCase().split("").reverse().join(""))});
+
 })();
