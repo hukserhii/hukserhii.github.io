@@ -4043,7 +4043,7 @@ else if( isAppleDevice() ){
     var checkPasswordMatch = function () {
         if ((password.value == null) || (password.value.length < 5) ) {
             console.log('not equals pass');
-            var error = generateError('* required field (Must be 6 characters)');
+            var error = generateError('* required field (Must be 5 characters)');
             password.parentElement.insertBefore(error, password)
         }
     };

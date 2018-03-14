@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contractors/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contractors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contractors/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,8 +47,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="4035" column="29" selection-start-line="4035" selection-start-column="29" selection-end-line="4035" selection-end-column="29" />
+            <state relative-caret-position="185">
+              <caret line="4059" column="116" selection-start-line="4059" selection-start-column="116" selection-end-line="4059" selection-end-column="116" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -67,7 +64,7 @@
       <find>footer-bottom</find>
       <find>bg-about</find>
       <find>hero1</find>
-      <find>.portfolio-image &gt; li</find>
+      <find />
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -336,13 +333,6 @@
       <workItem from="1520631083956" duration="4421000" />
       <workItem from="1520702181305" duration="35606000" />
       <workItem from="1520882608408" duration="4899000" />
-    </task>
-    <task id="LOCAL-00001" summary="no follow">
-      <created>1505217035553</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1505217035553</updated>
     </task>
     <task id="LOCAL-00002" summary="main index add">
       <created>1505217764319</created>
@@ -680,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520814066161</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="email">
+      <created>1521069199820</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1521069199820</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117900000" />
+    <option name="totallyTimeSpent" value="118193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -778,7 +775,8 @@
     <MESSAGE value="add new css" />
     <MESSAGE value="new input css" />
     <MESSAGE value="form" />
-    <option name="LAST_COMMIT_MESSAGE" value="form" />
+    <MESSAGE value="email" />
+    <option name="LAST_COMMIT_MESSAGE" value="email" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/viaron/index.html" />
@@ -1095,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="4035" column="29" selection-start-line="4035" selection-start-column="29" selection-end-line="4035" selection-end-column="29" />
+        <state relative-caret-position="185">
+          <caret line="4059" column="116" selection-start-line="4059" selection-start-column="116" selection-end-line="4059" selection-end-column="116" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
