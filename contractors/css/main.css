@@ -9000,19 +9000,19 @@ body, html {
     z-index: 999;
 }
 
-.header:after {
-    content: "";
-    background: #f2f3f5 url(../media/background-contractor-icon.png) 50% no-repeat;
-    background-size: 214%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
-    mix-blend-mode: overlay;
-    opacity: 0.2;
-}
+/*.header:after {*/
+    /*content: "";*/
+    /*background: #f2f3f5 url(../media/background-contractor-icon.png) 50% no-repeat;*/
+    /*background-size: 214%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*z-index: 0;*/
+    /*mix-blend-mode: overlay;*/
+    /*opacity: 0.2;*/
+/*}*/
 
 .header-logo {
     height: 45px;
@@ -9302,7 +9302,7 @@ label {
     padding: 0 5px 0;
     margin-bottom: 40px;
 }
-input:invalid {border-color: red;}
+input:invalid {border-color: red; color: #FF0423;}
 
 input:valid {border-color: #30afec;}
 
@@ -9310,10 +9310,35 @@ input:invalid:not(:placeholder-shown) {border-color: #FF0423; color: #FF0423;}
 
 input:valid:not(:placeholder-shown) {border-color: #30afec;}
 
+.error {
+    position: absolute;
+    transform: translate3d(0, 2.3em, 0);
+    font-size: 11px;
+    background: #fff;
+    /* color: #30afec; */
+    bottom: -20px;
+    width: fit-content;
+    padding: 0 5px 0;
+    margin-bottom: 39px;
+    z-index: 222;
+    /* padding-left: 33px; */
+    margin-left: 29px;
+}
+
+
 @media (max-width: 767px) {
     .header:after {
-    }
-    .header:after, .header:before {
+        content: "";
+        background: #f2f3f5 url(../media/background-contractor-icon.png) 50% no-repeat;
+        background-size: 214%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        mix-blend-mode: overlay;
+        opacity: 0.2;
     }
 }
 
@@ -9366,8 +9391,19 @@ input:valid:not(:placeholder-shown) {border-color: #30afec;}
     }
     .login-btn-wrap {
         margin: 123px 0 0;
-        border-top: 1px solid #e0e0e0;
+        /*border-top: 1px solid #e0e0e0;*/
         text-align: center;
+    }
+    .login-btn-wrap:before {
+        content: "";
+        position: fixed;
+        border-top: 1px solid #e0e0e0;
+        left: 0;
+        margin: -52px auto;
+        right: 0;
+        z-index: 999999;
+        opacity: 1;
+        width: 95%;
     }
     .elem-section {
         padding: 70px 0 0 0;

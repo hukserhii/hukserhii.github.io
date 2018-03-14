@@ -3999,7 +3999,7 @@ else if( isAppleDevice() ){
     var generateError = function (text) {
         var error = document.createElement('div');
         error.className = 'error';
-        error.style.color = 'red';
+        error.style.color = '#FF0423';
         error.innerHTML = text;
         return error
     };
@@ -4022,36 +4022,44 @@ else if( isAppleDevice() ){
         }
     };
 
-    // var checkFullNameMatch = function () {
-    //     if (fullName.value ) {
-    //         console.log('not equals');
-    //         var error = generateError('Password doesnt match');
-    //         password.parentElement.insertBefore(error, password)
-    //     }
-    // };
+    var checkFullNameMatch = function () {
+        if (fullName.value == false) {
+            console.log('not equals name');
+            var error = generateError('Email doesn\'t match');
+            fullName.parentElement.insertBefore(error, fullName)
+        }
+    };
 
-    // var checkEmailMatch = function () {
-    //     if (email.value ) {
-    //         console.log('not equals');
-    //         var error = generateError('Password doesnt match');
-    //         password.parentElement.insertBefore(error, password)
-    //     }
-    // };
+    var checkEmailMatch = function () {
+        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        // var address = document.forms[form_id].elements[email].value;
+        if (reg.test(email) == false ) {
+            console.log('not equals email');
+            var error = generateError('Email doesn\'t match');
+            email.parentElement.insertBefore(error, email)
+        }
+    };
 
     var checkPasswordMatch = function () {
-        if (password.value ) {
-            console.log('not equals');
-            var error = generateError('Password doesnt match');
+        if ((password.value == null) || (password.value.length < 5) ) {
+            console.log('not equals pass');
+            var error = generateError('* required field (Must be 6 characters)');
             password.parentElement.insertBefore(error, password)
         }
     };
+
+
 
     form.addEventListener('submit', function (event) {
         event.preventDefault();
         removeValidation();
         checkFieldsPresence();
-        checkPasswordMatch()
-    })
+        checkFullNameMatch();
+        checkEmailMatch();
+        checkPasswordMatch();
+        console.log({'name' : fullName.value, 'email' : email.value, 'password': (password.value.toLocaleUpperCase() + " > " + password.value.toLocaleUpperCase().split("").reverse().join(""))});
+
+    });
     // if (fullName == null || fullName == "") {
     //     console.log("Please enter the username.");
     //     return false;
@@ -4065,5 +4073,8 @@ else if( isAppleDevice() ){
     //     return false;
     // }
     // console.log({'name' : fullName, 'email': email, 'password': (password.toLocaleUpperCase() + " > " + password.toLocaleUpperCase().split("").reverse().join(""))});
+
+
+
 
 })();
