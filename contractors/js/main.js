@@ -4031,9 +4031,9 @@ else if( isAppleDevice() ){
     };
 
     var checkEmailMatch = function () {
-        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,6}\.)?[a-z]{2,6}$/i;
         // var address = document.forms[form_id].elements[email].value;
-        if (reg.test(email) == false ) {
+        if ($(this).val() && !pattern.test($(this).val())) {
             console.log('not equals email');
             var error = generateError('Email doesn\'t match');
             email.parentElement.insertBefore(error, email)
