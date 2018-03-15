@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contractors/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contractors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contractors/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/contractors/js/main.js" afterDir="false" />
     </list>
@@ -22,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contractors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+            <state relative-caret-position="696">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -31,8 +30,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4034" column="43" selection-start-line="4034" selection-start-column="43" selection-end-line="4034" selection-end-column="43" />
+            <state relative-caret-position="441">
+              <caret line="4054" column="46" lean-forward="true" selection-start-line="4054" selection-start-column="46" selection-end-line="4054" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -976,13 +975,6 @@
       <workItem from="1520702181305" duration="35606000" />
       <workItem from="1520882608408" duration="4899000" />
     </task>
-    <task id="LOCAL-00003" summary="add">
-      <created>1505221155440</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1505221155440</updated>
-    </task>
     <task id="LOCAL-00004" summary="add new">
       <created>1505891092048</created>
       <option name="number" value="00004" />
@@ -1319,11 +1311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521116535691</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="valid">
+      <created>1521127828883</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1521127828883</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125512000" />
+    <option name="totallyTimeSpent" value="125940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="13" width="1680" height="1028" extended-state="0" />
@@ -1393,8 +1392,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="фраза" />
-    <MESSAGE value="add new photo" />
     <MESSAGE value="add new img portfolio" />
     <MESSAGE value="bg" />
     <MESSAGE value="new img" />
@@ -1418,7 +1415,9 @@
     <MESSAGE value="form" />
     <MESSAGE value="email" />
     <MESSAGE value="email2" />
-    <option name="LAST_COMMIT_MESSAGE" value="email2" />
+    <MESSAGE value="valid" />
+    <MESSAGE value="clear code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/viaron/index.html" />
@@ -1718,15 +1717,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contractors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="45" column="92" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+        <state relative-caret-position="696">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contractors/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4034" column="43" selection-start-line="4034" selection-start-column="43" selection-end-line="4034" selection-end-column="43" />
+        <state relative-caret-position="441">
+          <caret line="4054" column="46" lean-forward="true" selection-start-line="4054" selection-start-column="46" selection-end-line="4054" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

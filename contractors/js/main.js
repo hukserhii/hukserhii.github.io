@@ -4024,14 +4024,12 @@ else if( isAppleDevice() ){
 
     var checkFullNameMatch = function () {
         var full = document.getElementById("inputName").value;
-        // clear any spaces in front
         while (full.charAt(0) == " ") full = full.substr(1);
-        // split and check for two names - dual purpose of also retrieving first and last name for future use
         full = full.split(" ");
         var first_name = full[0];
         var last_name = full[1];
         if (full.length < 2) {
-                console.log('not equals Name');
+                // console.log('not equals Name');
                 var error = generateError('Enter Name and Surname');
                 fullName.parentElement.insertBefore(error, fullName)
             }
@@ -4045,7 +4043,7 @@ else if( isAppleDevice() ){
     var checkEmailMatch = function () {
         var reg= new RegExp("[0-9a-z_]+@[0-9a-z_^.]+\\.[a-z]{2,3}", 'i');
         if (!reg.test(email.value)) {
-            console.log('not equals email');
+            // console.log('not equals email');
             var error = generateError('Email doesn\'t match');
             email.parentElement.insertBefore(error, email)
         }
@@ -4053,13 +4051,11 @@ else if( isAppleDevice() ){
 
     var checkPasswordMatch = function () {
         if ((password.value == null) || (password.value.length < 5) ) {
-            console.log('not equals pass');
+            // console.log('not equals pass');
             var error = generateError('* required field (Must be 5 characters)');
             password.parentElement.insertBefore(error, password)
         }
     };
-
-
 
     form.addEventListener('submit', function (event) {
         event.preventDefault();
