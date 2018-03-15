@@ -4023,17 +4023,28 @@ else if( isAppleDevice() ){
     };
 
     var checkFullNameMatch = function () {
-        if (fullName.value == false) {
-            console.log('not equals name');
-            var error = generateError('Email doesn\'t match');
-            fullName.parentElement.insertBefore(error, fullName)
-        }
+        var full = document.getElementById("inputName").value;
+        // clear any spaces in front
+        while (full.charAt(0) == " ") full = full.substr(1);
+        // split and check for two names - dual purpose of also retrieving first and last name for future use
+        full = full.split(" ");
+        var first_name = full[0];
+        var last_name = full[1];
+        if (full.length < 2) {
+                console.log('not equals Name');
+                var error = generateError('Enter Name and Surname');
+                fullName.parentElement.insertBefore(error, fullName)
+            }
+        // if (fullName.value == false) {
+        //     console.log('not equals name');
+        //     var error = generateError('Email doesn\'t match');
+        //     fullName.parentElement.insertBefore(error, fullName)
+        // }
     };
 
     var checkEmailMatch = function () {
-        var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,6}\.)?[a-z]{2,6}$/i;
-        // var address = document.forms[form_id].elements[email].value;
-        if ($(this).val() && !pattern.test($(this).val())) {
+        var reg= new RegExp("[0-9a-z_]+@[0-9a-z_^.]+\\.[a-z]{2,3}", 'i');
+        if (!reg.test(email.value)) {
             console.log('not equals email');
             var error = generateError('Email doesn\'t match');
             email.parentElement.insertBefore(error, email)
@@ -4060,19 +4071,6 @@ else if( isAppleDevice() ){
         console.log({'name' : fullName.value, 'email' : email.value, 'password': (password.value.toLocaleUpperCase() + " > " + password.value.toLocaleUpperCase().split("").reverse().join(""))});
 
     });
-    // if (fullName == null || fullName == "") {
-    //     console.log("Please enter the username.");
-    //     return false;
-    // }
-    // if (email == null || email == "") {
-    //     console.log("Please enter the email.");
-    //     return false;
-    // }
-    // if (password == null || password == "") {
-    //     console.log("Please enter the password.");
-    //     return false;
-    // }
-    // console.log({'name' : fullName, 'email': email, 'password': (password.toLocaleUpperCase() + " > " + password.toLocaleUpperCase().split("").reverse().join(""))});
 
 
 

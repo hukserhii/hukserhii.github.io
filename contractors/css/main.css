@@ -9394,16 +9394,17 @@ input:valid:not(:placeholder-shown) {border-color: #30afec;}
         /*border-top: 1px solid #e0e0e0;*/
         text-align: center;
     }
-    .login-btn-wrap:before {
+    .elem-wrap:before {
         content: "";
-        position: fixed;
+        position: absolute;
         border-top: 1px solid #e0e0e0;
         left: 0;
-        margin: -52px auto;
+        bottom: 0;
+        margin: 100px auto;
         right: 0;
         z-index: 999999;
         opacity: 1;
-        width: 95%;
+        width: 100%;
     }
     .elem-section {
         padding: 70px 0 0 0;
