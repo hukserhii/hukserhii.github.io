@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huks/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/huks/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huks/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="92" column="69" lean-forward="true" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="96" />
+            <state relative-caret-position="764">
+              <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -71,6 +69,7 @@
       <find>bg-about</find>
       <find>hero1</find>
       <find />
+      <find>typed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,21 +220,7 @@
       <workItem from="1520702181305" duration="35606000" />
       <workItem from="1520882608408" duration="4899000" />
       <workItem from="1522853924141" duration="305000" />
-      <workItem from="1526376544077" duration="305000" />
-    </task>
-    <task id="LOCAL-00005" summary="logo new">
-      <created>1505901540051</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1505901540051</updated>
-    </task>
-    <task id="LOCAL-00006" summary="logo new">
-      <created>1505997779002</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1505997779003</updated>
+      <workItem from="1526376544077" duration="832000" />
     </task>
     <task id="LOCAL-00007" summary="logo new">
       <created>1505998995860</created>
@@ -566,11 +551,25 @@
       <option name="project" value="LOCAL" />
       <updated>1521128213036</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="+++">
+      <created>1526376987935</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1526376987938</updated>
+    </task>
+    <task id="LOCAL-00055" summary="+++">
+      <created>1526377125462</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1526377125462</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127401000" />
+    <option name="totallyTimeSpent" value="127928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="112" y="2" width="1680" height="1028" extended-state="0" />
@@ -630,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="add new img portfolio" />
     <MESSAGE value="bg" />
     <MESSAGE value="new img" />
     <MESSAGE value="portfolio image" />
@@ -655,7 +653,8 @@
     <MESSAGE value="email2" />
     <MESSAGE value="valid" />
     <MESSAGE value="clear code" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear code" />
+    <MESSAGE value="+++" />
+    <option name="LAST_COMMIT_MESSAGE" value="+++" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/huks/js/main.js">
@@ -970,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/huks/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="92" column="69" lean-forward="true" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="96" />
+        <state relative-caret-position="764">
+          <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
         </state>
       </provider>
     </entry>

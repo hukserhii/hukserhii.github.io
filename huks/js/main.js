@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["Сайт находится в " + "<br>" + "разработке", "Меня зовут Сергей", "I'm a Front End developer"],
+        strings: ["Сайт разработке", "Меня зовут Сергей", "I'm a Front End developer"],
         typeSpeed: 100,
         backDelay: 800,
         // loop
