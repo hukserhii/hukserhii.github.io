@@ -90,9 +90,9 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["Меня зовут Сергей", "I'm a Front End developer", "Love Simplicity"],
+        strings: ["Сайт находится в разработке", "Меня зовут Сергей", "I'm a Front End developer"],
         typeSpeed: 100,
-        backDelay: 900,
+        backDelay: 800,
         // loop
         loop: true
     });
