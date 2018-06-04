@@ -24,14 +24,9 @@
         "@angular/http": "^4.3.6",
         "@angular/platform-browser": "^4.3.6",
         "@angular/platform-browser-dynamic": "^4.3.6",
-        "@angular/platform-server": "^6.0.3",
         "@angular/router": "^4.3.6",
-        "@nguniversal/express-engine": "^6.0.0",
-        "@nguniversal/module-map-ngfactory-loader": "^6.0.0",
-        "axios": "^0.18.0",
         "core-js": "^2.4.1",
         "rxjs": "^5.4.2",
-        "ts-loader": "^4.3.1",
         "zone.js": "^0.8.14"
     },
     "devDependencies": {

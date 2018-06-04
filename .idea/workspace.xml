@@ -1,86 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="angular weather me">
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/Weather_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/build/webpack.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/build/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/build/webpack.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/server/prod-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/test/karma-test-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/test/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/test/webpack.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/config/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.spec.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.routing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.routing.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city-weather.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city-weather.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.service.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/current-weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/current-weather.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/weather.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/constants.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/polyfills.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/vendor.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/vendor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
+    <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="angular me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather-app-LoopMe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Weather-app-LoopMe/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/Weather_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.spec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.routing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.routing.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city-weather.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city-weather.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.service.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/current-weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/current-weather.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/city-input/city-input.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/current-info/current-info.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/app/weather.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/constants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-angular-starter-master/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/polyfills.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-angular-starter-master/src/vendor.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,20 +71,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/Weather-app-LoopMe/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="187">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-weather.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Weather-app-LoopMe/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Weather-app-LoopMe/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -139,17 +136,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/contractors/css/main.css" />
-        <option value="$PROJECT_DIR$/contractors/index.html" />
-        <option value="$PROJECT_DIR$/contractors/js/main.js" />
-        <option value="$PROJECT_DIR$/pb/README.md" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/huks/js/main.js" />
-        <option value="$PROJECT_DIR$/weathermap/package.json" />
         <option value="$PROJECT_DIR$/weathermap/package-lock.json" />
         <option value="$PROJECT_DIR$/webpack-angular-starter-master/src/app/index.js" />
         <option value="$PROJECT_DIR$/webpack-angular-starter-master/.gitignore" />
-        <option value="$PROJECT_DIR$/webpack-angular-starter-master/package.json" />
         <option value="$PROJECT_DIR$/webpack-angular-starter-master/src/index.html" />
         <option value="$PROJECT_DIR$/weather-app/styles.css" />
         <option value="$PROJECT_DIR$/weather-app/services/geolocationService.js" />
@@ -177,7 +166,6 @@
         <option value="$PROJECT_DIR$/Weather-app-with-Node-webkit-and-Angularjs-master/index.html" />
         <option value="$PROJECT_DIR$/Weather-app-with-Node-webkit-and-Angularjs-master/app/app.js" />
         <option value="$PROJECT_DIR$/Weather-app-with-Node-webkit-and-Angularjs-master/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/index.html" />
         <option value="$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/home/home.component.html" />
         <option value="$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/app.component.html" />
@@ -190,6 +178,15 @@
         <option value="$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/current-info/current-info.component.css" />
         <option value="$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.css" />
         <option value="$PROJECT_DIR$/Weather-app-LoopMe/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/webpack-angular-starter-master/package.json" />
+        <option value="$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.ts" />
+        <option value="$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-input/city-input.component.ts" />
+        <option value="$PROJECT_DIR$/angular-openweathermap-api-factory-master/demo/index.html" />
+        <option value="$PROJECT_DIR$/angular-openweathermap-api-factory-master/demo/js/app.js" />
+        <option value="$PROJECT_DIR$/Weather-app-LoopMe/index.html" />
+        <option value="$PROJECT_DIR$/Weather-app-LoopMe/app/app.js" />
+        <option value="$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-weather.service.ts" />
       </list>
     </option>
   </component>
@@ -201,7 +198,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Weather-app-LoopMe/node_modules" />
-    <handled-path value="$PROJECT_DIR$/angular-4-weather-app-master/node_modules" />
     <handled-path value="$PROJECT_DIR$/rere/node_modules" />
     <handled-path value="$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/node_modules" />
     <handled-path value="$PROJECT_DIR$/webpack-angular-starter-master/node_modules" />
@@ -209,7 +205,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/Weather-app-LoopMe/package.json" />
-      <path value="$PROJECT_DIR$/angular-4-weather-app-master/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/angular-openweathermap-api-factory/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/angular/package.json" />
       <path value="$PROJECT_DIR$/node_modules/chart.js/package.json" />
       <path value="$PROJECT_DIR$/node_modules/chartjs-color-string/package.json" />
       <path value="$PROJECT_DIR$/node_modules/chartjs-color/package.json" />
@@ -254,7 +251,34 @@
             <path>
               <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack-angular-starter-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Weather-app-LoopMe" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherforecast-master (1)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherforecast-master (1)" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherforecast-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherforecast-master (1)" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherforecast-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hukserhii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hukserhii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherforecast-master (1)" type="462c0819:PsiDirectoryNode" />
+              <item name="weatherforecast-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,7 +297,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
-    <property name="ts.external.directory.path" value="C:\Users\loza\WebstormProjects\hukserhii.github.io\angular-4-weather-app-master\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\loza\WebstormProjects\hukserhii.github.io\webpack-angular-starter-master\node_modules\typescript\lib" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/contractors/index.html" />
   </component>
   <component name="RecentsManager">
@@ -380,7 +404,9 @@
       <workItem from="1528093299822" duration="2727000" />
       <workItem from="1528098763051" duration="432000" />
       <workItem from="1528099257038" duration="4405000" />
-      <workItem from="1528103857158" duration="307000" />
+      <workItem from="1528103857158" duration="2859000" />
+      <workItem from="1528107064939" duration="5618000" />
+      <workItem from="1528113331024" duration="627000" />
     </task>
     <task id="LOCAL-00014" summary="file">
       <created>1506412800387</created>
@@ -729,13 +755,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213907000" />
+    <option name="totallyTimeSpent" value="222704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27083334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2715774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -749,7 +774,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32988507" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014881" side_tool="true" weight="0.24713585" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985119" visible="true" weight="0.24713585" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985119" visible="true" weight="0.26350245" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -790,7 +815,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="new icon - 2" />
     <MESSAGE value="edit" />
     <MESSAGE value="AAAA" />
     <MESSAGE value="preloader logo" />
@@ -815,160 +839,10 @@
     <MESSAGE value="angular weather 33" />
     <MESSAGE value="angular weather 3" />
     <MESSAGE value="angular weather me" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular weather me" />
+    <MESSAGE value="angular me" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular me" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/weather-charts/weather-charts.component.ts" />
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/trianglify.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/weather.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/node_modules/@angular/core/src/render3/di.d.ts" />
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/weather.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/city.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/node_modules/axios/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/city.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Weather-app-LoopMe/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-weather.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/city-weather.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/current-weather.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/weather-charts/weather-charts.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/weather-charts/weather-charts.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/weather-charts/weather-charts.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/current-info/trianglify.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/current-info/current-info.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/current-info/current-info.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/current-info/current-info.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/weather-charts/weather-charts.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -983,45 +857,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/current-info/current-info.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/current-info/current-info.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/current-info/current-info.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.css" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.html" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/city-input/city-input.component.css" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/current-info/current-info.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/current-info/current-info.component.html" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/current-info/current-info.component.css" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master2/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.html" />
     <entry file="file://$PROJECT_DIR$/Weather-app-LoopMe/npm">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1035,18 +881,173 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/npm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/city.js" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/city-weather.service.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/weather-charts/weather-charts.component.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/route/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/src/app/current-weather.ts" />
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-angular-starter-master/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-input/city-input.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-input/city-input.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/weather-charts/weather-charts.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/current-weather.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-input/city-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-openweathermap-api-factory-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/angular-openweathermap-api-factory-master/bower.json" />
+    <entry file="file://$PROJECT_DIR$/angular-openweathermap-api-factory-master/package.json" />
+    <entry file="file://$PROJECT_DIR$/angular-openweathermap-api-factory-master/demo/index.html" />
+    <entry file="file://$PROJECT_DIR$/angular-openweathermap-api-factory-master/demo/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/weather-charts/weather-charts.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather-app-LoopMe/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weather-app-LoopMe/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/app/city-weather.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
