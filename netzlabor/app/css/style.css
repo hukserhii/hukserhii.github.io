@@ -1,0 +1,40 @@
+body {
+    background-color: #e5e5e5;
+}
+
+#sidebar-items {
+
+}
+
+.sidebar-items {
+    margin-bottom: 40px;
+    background-color: #6b6b6b;
+}
+.sidebar-items__sidebar-item {
+    display: block;
+    margin-bottom: -1px;
+    padding: 8px 4px 8px 10px;
+    background: transparent;
+    transition: all ease 0.2s;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sidebar-items__sidebar-item:first-child {
+}
+.sidebar-items__sidebar-item:last-child {
+}
+.sidebar-items__sidebar-item:hover:not(.sidebar-items__sidebar-item--header) {
+    background: #eee;
+    text-decoration: none;
+    color: #333;
+}
+.sidebar-items__sidebar-item--header {
+    background: #3A5998;
+    color: #fff;
+}
+.main {
+
+    margin: 0 auto;
+}

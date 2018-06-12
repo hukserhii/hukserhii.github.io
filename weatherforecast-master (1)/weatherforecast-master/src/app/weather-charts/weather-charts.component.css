@@ -1,5 +1,0 @@
-.temperatureCharts, .rainProbCharts, .windCharts, .sunMoonCharts{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
