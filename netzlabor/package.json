@@ -1,0 +1,29 @@
+{
+  "name": "netzlabor",
+  "version": "1.0.0",
+  "description": "HTML Coder Test Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hukserhii/hukserhii.github.io.git"
+  },
+  "keywords": [
+    "natashaLOVE85"
+  ],
+  "author": "huk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hukserhii/hukserhii.github.io/issues"
+  },
+  "homepage": "https://github.com/hukserhii/hukserhii.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
