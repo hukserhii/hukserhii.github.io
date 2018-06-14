@@ -1,8 +1,10 @@
-var gulp = require('gulp'), // Подключаем Gulp
-    sass = require('gulp-sass'); //Подключаем Sass пакет
+var gulp = require('gulp'),
+    sass = require('gulp-sass');
 
 gulp.task('sass', function(){
-    return gulp.src('app/sass/**/*.sass') // Берем все sass файлы из папки sass и дочерних, если таковые будут
+    return gulp.src('app/sass/**/*.sass')
         .pipe(sass())
         .pipe(gulp.dest('app/css'))
+        .pipe(gulp.dest('app/js'))
+
 });
