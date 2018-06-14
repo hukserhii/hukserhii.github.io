@@ -24,9 +24,12 @@ a, a:hover, a:focus {
 }
 
 .navbar-header {
-    display: inline-flex;
+    display: block;
+    z-index: 1003;
+    position: absolute;
+    width: 100%;
+    background: #6b6b6bf0;
 }
-
 
 .navbar {
     padding: 15px 10px;
@@ -45,11 +48,28 @@ a, a:hover, a:focus {
 
 }
 
-.list-unstyled li:after {
-
+.sidebar-header--mob {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 34px 20px 20px;
+     background: #fff;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    z-index: 1004;
 }
 
-.line:before{
+.line:first-child:before{
+    content: '';
+    width: 60%;
+    height: 1px;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+.line:after{
     content: '';
     width: 60%;
     height: 1px;
@@ -66,16 +86,25 @@ a, a:hover, a:focus {
 
 #sidebar {
     min-width: 250px;
-    max-width: 250px;
     background: #6b6b6b;
+    top: 0;
+    left: -250px;
+    z-index: 999;
     color: #fff;
-    transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
-    transform-origin: bottom left;
+    transition: all 0.3s;
+}
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    display: none;
 }
 
 #sidebar.active {
-    margin-left: -250px;
-    transform: rotateY(100deg);
+    left: 0;
 }
 
 #sidebar .sidebar-header {
@@ -96,10 +125,8 @@ a, a:hover, a:focus {
     transform: skewY(6deg);
 }
 
-
 #sidebar ul.components {
     padding: 20px 0;
-    /*border-bottom: 1px solid #47748b;*/
 }
 
 #sidebar ul p {
@@ -122,7 +149,6 @@ a, a:hover, a:focus {
     background: #9E9E9E;
 }
 
-
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -143,8 +169,6 @@ a[aria-expanded="true"]::before {
 }
 
 .arrow {
-    /*max-width: 256px;*/
-    /*max-height: 256px;*/
     display: block;
     height: 30px;
     background: no-repeat center;
@@ -175,7 +199,8 @@ a.article, a.article:hover {
     width: 40px;
     height: 40px;
     background: transparent;
-    margin: 0 auto;
+    margin-left: 206px;
+    cursor: pointer;
 }
 
 #sidebarCollapse span {
@@ -183,7 +208,7 @@ a.article, a.article:hover {
     height: 2px;
     margin: 0 auto;
     display: block;
-    background: #555;
+    background: #fff;
     transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
     transition-delay: 0.2s;
 }
@@ -245,13 +270,21 @@ a.article, a.article:hover {
 }
 
 @media (max-width: 768px) {
+    .wrapper {
+        display: block;
+    }
     #sidebar {
-        margin-left: -250px;
-        transform: rotateY(90deg);
+        position: fixed;
+        height: 100%;
+        background: #6b6b6bf0;
     }
     #sidebar.active {
-        margin-left: 0;
-        transform: none;
+        left: 0;
+        padding-top: 240px;
+        margin-top: 40px;
+    }
+    #sidebar .sidebar-header {
+        display: none;
     }
     #sidebarCollapse span:first-of-type,
     #sidebarCollapse span:nth-of-type(2),
@@ -273,6 +306,12 @@ a.article, a.article:hover {
         transform: rotate(-45deg) translate(1px, -1px);
     }
     .navbar-btn {
+        display: block;
+    }
+    #dismiss {
+        display: block;
+    }
+    .sidebar-header--mob {
         display: block;
     }
 }
