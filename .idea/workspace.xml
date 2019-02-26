@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="test task add">
+    <list default="true" id="5f188187-fcec-4503-9eec-d604cd751699" name="Default" comment="hover">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huks/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/huks/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huks/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/huks/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,19 +15,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+            <state relative-caret-position="540">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huks/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
+            <state relative-caret-position="2949">
               <caret line="831" selection-start-line="831" selection-end-line="831" />
             </state>
           </provider>
@@ -135,8 +132,8 @@
         <option value="$PROJECT_DIR$/netzlabor/app/css/style.css" />
         <option value="$PROJECT_DIR$/netzlabor/gulpgile.js" />
         <option value="$PROJECT_DIR$/huks/css/responsive.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/huks/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -160,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,7 +169,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,14 +300,8 @@
       <workItem from="1528825202665" duration="9851000" />
       <workItem from="1528882146126" duration="29868000" />
       <workItem from="1548333510022" duration="820000" />
-      <workItem from="1548409685600" duration="5893000" />
-    </task>
-    <task id="LOCAL-00015" summary="img add">
-      <created>1506414176632</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1506414176632</updated>
+      <workItem from="1548409685600" duration="6456000" />
+      <workItem from="1551189954605" duration="360000" />
     </task>
     <task id="LOCAL-00016" summary="icon">
       <created>1506416748696</created>
@@ -648,14 +639,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528823857155</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="hover">
+      <created>1548423591243</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1548423591244</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284889000" />
+    <option name="totallyTimeSpent" value="285812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="23" width="1410" height="1057" extended-state="1" />
+    <frame x="86" y="23" width="1410" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2174226" />
@@ -724,7 +722,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="preloader logo" />
     <MESSAGE value="preloader logo + re:re" />
     <MESSAGE value="img" />
     <MESSAGE value="re:re cl" />
@@ -749,7 +746,8 @@
     <MESSAGE value="angular me" />
     <MESSAGE value="test task and del" />
     <MESSAGE value="test task add" />
-    <option name="LAST_COMMIT_MESSAGE" value="test task add" />
+    <MESSAGE value="hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="hover" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/weatherforecast-master (1)/weatherforecast-master/src/index.html" />
@@ -884,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huks/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ukraine-print.com.ua/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -899,17 +890,24 @@
         <state relative-caret-position="-905" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/huks/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+        <state relative-caret-position="555">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/huks/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
+        <state relative-caret-position="2949">
           <caret line="831" selection-start-line="831" selection-end-line="831" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
