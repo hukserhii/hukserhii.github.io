@@ -1,0 +1,239 @@
+@font-face {
+font-family: 'Tahoma Bold';
+src: url('../fonts/Tahoma/Tahoma-Bold.eot');
+src: url('../fonts/Tahoma/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Tahoma/Tahoma-Bold.woff') format('woff'),
+url('../fonts/Tahoma/Tahoma-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Times New Roman Regular';
+src: url('../fonts/TimesNewRoman/TimesNewRomanPSMT.eot');
+src: url('../fonts/TimesNewRoman/TimesNewRomanPSMT.eot?#iefix') format('embedded-opentype'),
+url('../fonts/TimesNewRoman/TimesNewRomanPSMT.woff') format('woff'),
+url('../fonts/TimesNewRoman/TimesNewRomanPSMT.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Times New Roman Italic';
+src: url('../fonts/TimesNewRoman/TimesNewRomanPS-ItalicMT.eot');
+src: url('../fonts/TimesNewRoman/TimesNewRomanPS-ItalicMT.eot?#iefix') format('embedded-opentype'),
+url('../fonts/TimesNewRoman/TimesNewRomanPS-ItalicMT.woff') format('woff'),
+url('../fonts/TimesNewRoman/TimesNewRomanPS-ItalicMT.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html {
+	height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, li, p, ul {
+	margin: 0;
+}
+
+li,ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Tahoma Bold", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	max-width: 841px;
+	margin: 0 auto;
+}
+
+p {
+	font-family: "Times New Roman Regular", sans-serif;
+	color: #8d8d8d;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 19px;
+}
+.header__nav ul {
+	display: flex;
+}
+
+.header__nav ul li {
+	padding-right: 30px;
+}
+
+.header__nav ul li:last-child {
+	padding-right: 0;
+}
+
+.header__nav ul li a {
+	font-weight: 700;
+	color: #000;
+	font-size: 16px;
+}
+
+.section__content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #f0f0f0;
+	margin-top: 20px;
+	padding: 19px 34px 20px 30px;
+}
+
+.section__content_baner {
+	padding-right: 22px;
+}
+
+.section__content_baner img {
+	width: 100%;
+	height: auto;
+}
+
+.section__content_left,
+.section__content_right {
+	-ms-flex-preferred-size: 50%;
+	flex-basis: 50%
+}
+
+.section__content_right h1 {
+	font-size: 21px;
+	font-weight: 700;
+	color: #000;
+	line-height: 27px;
+	max-width: 320px;
+}
+
+body .section__content_right p {
+	font-weight: regular;
+	line-height: 19px;
+	padding-bottom: 15px;
+	padding-top: 14px;
+}
+
+.section__content_right .link_button {
+	color: #fefefe;
+	font-size: 13px;
+	padding: 9px 25px 9px 24px;
+	cursor: pointer;
+	border-radius: 3px;
+  background: rgb(180,54,45);
+  background: linear-gradient(0deg, rgba(180,54,45,1) 0%, rgba(218,65,55,1) 100%);
+}
+
+.section__content_right .link_button:hover {
+	background: linear-gradient(0deg, rgba(218,65,55,1) 0%, rgba(180,54,45,1) 100%);
+}
+
+.strategy__title h2 {
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 26px;
+	padding-bottom: 9px;
+}
+
+.strategy__title p {
+	line-height: 20px;
+	padding-bottom: 28px;
+}
+
+.strategy__advantages {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.strategy__advantages_box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.strategy__advantages_box:first-child {
+	padding-left: 9px;
+}
+
+.strategy__advantages_box p {
+	color: #000;
+  font-family: 'Times New Roman Italic';
+	font-style: italic;
+	padding-left: 15px;
+	max-width: 140px;
+}
+
+.content_info h2 {
+	font-size: 18px;
+	font-weight: 800;
+  line-height: 2;
+  margin-top: 15px;
+}
+
+.content_info p {
+	line-height: 20px
+}
+
+.clear {
+  height: 80px;
+}
+
+@media (max-width:841px) {
+	body {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.header__nav{
+		display: none;
+	}
+  .section__content {
+		padding: 30px;
+		flex-direction: column;
+	}
+  .section__content_baner {
+		padding: 0;
+	}
+  .section__content_right h1 {
+		padding-top: 25px;
+		max-width: 100%;
+	}
+  .strategy__advantages_box {
+		flex-basis: 50%;
+		padding: 25px 0 0;
+		flex-flow: column wrap;
+		text-align: center;
+		justify-content: flex-end;
+	}
+	.strategy__advantages_box p {
+		padding-left: 0;
+		padding-top: 12px;
+	}
+	.strategy__advantages_box:first-child {
+		padding-left: 0;
+	}
+}
